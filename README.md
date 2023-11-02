@@ -1,44 +1,9 @@
-# data-template-coldp
-A template for [ChecklistBank](https://www.checklistbank.org) dataset repositories using the combined [ColDP format](https://github.com/CatalogueOfLife/coldp/blob/master/README.md).
+# Diplura
+Based on "Diversity, ecology, distribution and biogeography of Diplura" by
+Alberto Sendra, Alberto Jiménez-Valverde, Jesús Selfa, Ana Sofia P. S. Reboleira
+First published: 18 March 2021 https://doi.org/10.1111/icad.12480
 
-## Files
-The template uses the combined [NameUsage](https://github.com/CatalogueOfLife/coldp/blob/master/README.md#nameusage) file 
-and [BibTex](https://github.com/CatalogueOfLife/coldp/blob/master/README.md#reference-bibtex) for references.
+## Introduction
+Diplurans are one of three entognatous hexapod groups present in almost every soil, cave or other empty subsurface space. This order is poorly represented in the scientific literature with only about 900 publications since Linnaeus wrote the Systema Naturae (1761–1767). In spite of their ubiquity in subsurface terrestrial habitats, diplurans have been mostly forgotten in ecological studies and remain without a solid worldwide revision since the monograph of campodeids by Condé (1956) and the Diplura checklist by Paclt (1957). A handful of zoologists have devoted their scientific career to diplurans, beginning with Filippo Silvestri (1873–1949) from Italy; from France: Jean Robert Denis (1893–1969), Bruno Condé, and Jean Pagés (1925–2009); from Germany: Petr Wygodzinsky (1916–1987); from Czech Republic Juraj Paclt (1925–2015); from Russia: Boris Pimenovitch Chevrizov (1951–1993); from USA: Leslie M. Smith (1903–1976) and Mark Alan Muegge (1956–2015); and finally from Uruguay: Pablo R. San Martin (1933–1969).
 
-Not all ColDP entities have been included in the template, just the frequently used ones.
-
-BibTex content can be retrieved from CrossRef for most DOIs when known.
-For example by using curl on the terminal like this:
-> curl --location --silent --header "Accept: application/x-bibtex" https://doi.org/10.1080/11035890601282097 
-> @article{Eriksson_2006,
-    doi = {10.1080/11035890601282097},
-    url = {https://doi.org/10.1080%2F11035890601282097},
-    year = 2006,
-    month = {jun},
-    publisher = {Informa {UK} Limited},
-    volume = {128},
-    number = {2},
-    pages = {97--101},
-    author = {Mats E. Eriksson},
-    title = {Polychaete jaw apparatuses and scolecodonts from the Silurian Ireviken Event interval of Gotland, Sweden},
-    journal = {{GFF}}
-}
-
-There are also online editors, e.g. https://truben.no/latex/bibtex/#
-
-Information about the dataset as a whole and how to cite it is kept in metadata.yaml.
-
-
-## Github webhooks
-Once the dataset is created in ChecklistBank (CLB), Github webhooks can be used to automatically update the copy in ChecklistBank 
-whenever a commit to the repository happens. Configure:
-
- a) the dataset access URL in CLB to point to the github repo zip archive, e.g. https://github.com/CatalogueOfLife/data-vespoidea/archive/refs/heads/master.zip
- b) the github repo webhook in settings to point to http://api.checklistbank.org/importer/{DATASET_KEY}/github
- c) configure github to use a secret that the CLB admin hands over to you confidently. Please contact mdoering@gbif.org for this!
-
-
-## Git precommit hook
-You can configure a git ore commit hook to automatically update the issued date of your metadata.yaml.
-For this to work simply place the [pre-commit.hook](pre-commit.hook) file into your `.git/hooks` folder.
-
+Diplura is considered the sister group to insects and thus the closest group among the three basal hexapods that include Collembola and Protura (Beutel et al., 2017). Hexapods became terrestrial most likely in early Ordovician (Misof et al., 2014), acquiring breathing capacity through a tracheal system, excretory activity through Malpighian tubules (which are reduced or absent in some families), and reproduction with indirect sperm transference by spermatophores (Beutel et al., 2017). The oldest record of a truly dipluran fossil dates back to the Lower Cretaceous from Brazil (Wilson & Martill, 2001). However, a japygid-like doubtful dipluran fossil was described from the Upper Carboniferous (Kukalová-Peck, 1987). Another four fossil species of campodeids and japygids have been described hitherto (Paclt, 1957).

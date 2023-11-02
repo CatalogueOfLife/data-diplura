@@ -1,29 +1,1096 @@
-ID	parentID	basionymID	status	scientificName	authorship	rank	genus	specificEpithet	infraspecificEpithet	referenceID	publishedInPage	code	nameStatus	originalSpelling	gender	genderAgreement	extinct	environment	link	remarks
-1			accepted	Plantae		kingdom						botanical								
-2	1		synonym	Viridae		kingdom						botanical			
-10	1		accepted	Asteraceae		family						botanical								
-11	10		synonym	Compositae		family						botanical								
-20	10		accepted	Cichorioideae		subfamily						botanical								
-30	20		accepted	Cichorieae		tribe						botanical								
-31	20		accepted	Gundelieae		tribe						botanical								
-100	20		accepted	Platycarpha		genus						botanical								
-101	30		accepted	Crepis	L.	genus						botanical								
-102	30		accepted	Leontodon		genus						botanical								
-110	31		accepted	Gundelia	L.	genus						botanical								
-1000	100		accepted	Platycarpha glomerata	(Thunberg) A. P. de Candolle	species	Platycarpha	glomerata				botanical								
-1001	101		accepted	Crepis bakeri	Greene	species	Crepis	bakeri		greene1895	73	botanical							https://beta.ipni.org/n/69325-2	
-1002	101		accepted	Crepis occidentalis	Nutt.	species	Crepis	occidentalis				botanical								
-1005	102		accepted	Leontodon anomalus		species	Leontodon	anomalus				botanical								
-1006	102		accepted	Leontodon taraxacoides	(Vill.) Mérat	species	Leontodon	taraxacoides				botanical								
-1006-s1	1006		synonym	Leontodon leysseri		species	Leontodon	leysseri				botanical								
-1006-s2	1006		synonym	Leontodon saxatilis		species	Leontodon	saxatilis				botanical								
-1006-s3	1006		synonym	Leonida taraxacoida	Vill.	species	Leonida	taraxacoida				botanical								
-1010	110		accepted	Gundelia rosea	L.	species	Gundelia	rosea				botanical								
-1011	110		accepted	Gundelia tournefortii	L.	species	Gundelia	tournefortii				botanical								
-1001a	1001		accepted	Crepis bakeri subsp. bakeri		subspecies	Crepis	bakeri	bakeri			botanical								
-1001b	1001		accepted	Crepis bakeri subsp. cusickii	(Eastw.) Babc. & Stebbins	subspecies	Crepis	bakeri	cusickii			botanical								
-1001c	1001		accepted	Crepis bakeri subsp. idahoensis	Babc. & Stebbins	subspecies	Crepis	bakeri	idahoensis			botanical								
-fake	1		accepted	Paulownia × tomentosa subsp. tella f. pasta	(Carl & Ruth) Frankenstein ex Semmelrogge	forma				frank	87	botanical	conserved						https://herbaria.plants.ox.ac.uk/bol/plants400/profiles/OP/Paulownia	Unclear name origin
-hybrid	1		accepted	Quercus robur x Q. macrocarpa		species						botanical	LEGITIMATE						http://www.heritageseedlings.com/page_608_40/quercus-heritage-q.-robur-x-q.-macrocarpa-clemons	commercial seeds
-virus	110		accepted	Acanthocystis turfacea chlorella virus 1								virus								
-cult	110		accepted	Clematis 'Sapphire Indigo'		species													http://plants.thegrowingplace.com/12120014/Plant/6164/Sapphire_Indigo_Clematis/	
+ID	family	subfamily	genus	scientificName
+1	Anajapygidae Silvestri, 1903		Anajapyx	Anajapyx carli Pagés, 1997
+2	Anajapygidae Silvestri, 1903		Anajapyx	Anajapyx guineensis Silvestri, 1938
+3	Anajapygidae Silvestri, 1903		Anajapyx	Anajapyx mexicanus Silvestri, 1909
+4	Anajapygidae Silvestri, 1903		Anajapyx	Anajapyx vesiculosus Silvestri, 1903
+5	Anajapygidae Silvestri, 1903		Paranajapyx	Paranajapyx hermosus Smith, 1960
+6	Campodeidae Lubbock, 1873	Campodeinae	Afrocampa	Afrocampa camerunensis Silvestri, 1933
+7	Campodeidae Lubbock, 1873	Campodeinae	Afrocampa	Afrocampa guineensis Silvestri, 1933
+8	Campodeidae Lubbock, 1873	Campodeinae	Allocampa	Allocampa bruneri Silvestri, 1931
+9	Campodeidae Lubbock, 1873	Campodeinae	Anisocampa	Anisocampa brincki Condé, 1955
+10	Campodeidae Lubbock, 1873	Campodeinae	Anisocampa	Anisocampa denisi Silvestri, 1932
+11	Campodeidae Lubbock, 1873	Campodeinae	Anisocampa	Anisocampa gilli Silvestri, 1932
+12	Campodeidae Lubbock, 1873	Campodeinae	Anisocampa	Anisocampa hutchinsoni Silvestri, 1932
+13	Campodeidae Lubbock, 1873	Campodeinae	Anisocampa	Anisocampa lateralis lateralis Condé, 1950
+14	Campodeidae Lubbock, 1873	Campodeinae	Anisocampa	Anisocampa lateralis infera Condé, 1955
+15	Campodeidae Lubbock, 1873	Campodeinae	Anisocampa	Anisocampa lawrencei Silvestri, 1932
+16	Campodeidae Lubbock, 1873	Campodeinae	Anisocampa	Anisocampa leleupi Condé, 1964
+17	Campodeidae Lubbock, 1873	Campodeinae	Anisocampa	Anisocampa lounsburyi Silvestri, 1932
+18	Campodeidae Lubbock, 1873	Campodeinae	Anisocampa	Anisocampa mallyi Silvestri, 1932
+19	Campodeidae Lubbock, 1873	Campodeinae	Anisocampa	Anisocampa munroi munroi Silvestri, 1932
+20	Campodeidae Lubbock, 1873	Campodeinae	Anisocampa	Anisocampa munroi conjuncta Condé, 1955
+21	Campodeidae Lubbock, 1873	Campodeinae	Anisocampa	Anisocampa munroi ampliata Silvestri, 1932
+22	Campodeidae Lubbock, 1873	Campodeinae	Anisocampa	Anisocampa pickfordi Silvestri, 1932
+23	Campodeidae Lubbock, 1873	Campodeinae	Anisocampa	Anisocampa purcelli Silvestri, 1932
+24	Campodeidae Lubbock, 1873	Campodeinae	Anisocampa	Anisocampa rudebecki Condé, 1955
+25	Campodeidae Lubbock, 1873	Campodeinae	Anisocampa	Anisocampa warreni Silvestri, 1944
+26	Campodeidae Lubbock, 1873	Campodeinae	Anisocampa	Anisocampa womersleyi Silvestri, 1932
+27	Campodeidae Lubbock, 1873	Campodeinae	Apistocampa	Apistocampa leclerci Condé, 1994
+28	Campodeidae Lubbock, 1873	Campodeinae	Austrocampa	Austrocampa spinigera spinigera Womersley, 1937
+29	Campodeidae Lubbock, 1873	Campodeinae	Austrocampa	Austrocampa spinigera victoriensis Womersley, 1937
+30	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (?) biolleyi Silvestri, 1931
+31	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (?) dahli Condé, 1956
+32	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (?) nyongensis Condé, 1956
+33	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) akiyamai Silvestri, 1931
+34	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) alfierii Wygodzinsky, 1942
+35	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) alluvialis Sendra, 2017
+36	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) anacua Wygodzinsky, 1944
+37	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) anae Sendra & Teruel, 2010
+38	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) anavyi Condé, 1955
+39	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) apennina Ramellini, 1998
+40	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) arrabidae Wygodzinsky, 1944
+41	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) augens Silvestri, 1936
+42	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) basiliensis Wygodzinsky, 1941
+43	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) batesoni Silvestri, 1931
+44	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) blandinae blandinae Condé, 1948
+45	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) blandinae ichnusa Condé, 1956
+46	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) blandinae virgolae Condé, 1948
+47	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) californiensis Hilton, 1932
+48	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) calvinoi Silvestri, 1931
+49	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) chardardi chardardi Condé, 1947
+50	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) chardardi cephalonica Condé, 1947
+51	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) chica Wygodzinsky,1944
+52	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) chionea Rusek, 1966
+53	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) coniphora Wygodzinsky, 1941
+54	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) consobrina Condé & Mathieu, 1957
+55	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) correai Wygodzinsky, 1944
+56	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) cossetana Sendra & Escolà, 2004
+57	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) cyrnea cyrnea Condé, 1946
+58	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) cyrnea alethae Condé, 1948
+59	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) delamarei Condé & Mathieu, 1957
+60	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) donensis Rusek, 1965
+61	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) egena Condé, 1951
+62	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) epirotica Condé, 1984
+63	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) esterae Silvestri, 1931
+64	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) folsomi Silvestri, 1912
+65	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) fragilis Meinert, 1865
+66	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) franzi Condé, 1954
+67	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) frascajensis Condé, 1946
+68	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) galilaea Wygoszinsky, 1942
+69	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) ghilarovi Rusek, 1965
+70	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) giardi Silvestri, 1912
+71	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) grallesiensis Sendra & Condé, 1987
+72	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) grassii Silvestri, 1912
+73	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) hannahae Allen, 1995
+74	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) howardi Silvestri, 1912
+75	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) ilixonis Denis, 1932
+76	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) insidiator Bareth & Condé, 1958
+77	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) ishiii Silvestri, 1931
+78	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) kasiki Rusek, 1964
+79	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) kelloggi Silvestri, 1912
+80	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) kervillei Denis, 1932
+81	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) lahillei Silvestri, 1931
+82	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) lagardei Wygodzinsky, 1944
+83	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) lamimani Silvestri, 1933
+84	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) lankesteri Silvestri, 1912
+85	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) leclerci Bareth, 1985
+86	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) linsleyi Condé & Thomas, 1957
+87	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) lubbocki Silvestri, 1912
+88	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) ludoviciana Condé & Geeraert, 1962
+89	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) machadoi Condé, 1951
+90	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) maestrazgoensis Sendra & Escolà, 2004
+91	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) magna Ionescu, 1955
+92	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) majorica majorica Condé, 1955
+93	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) majorica interjecta Condé, 1955
+94	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) majorica sicula Condé, 1957
+95	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) majorica valentina Sendra & Moreno, 2004
+96	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) marcuzzii Condé, 1954
+97	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) maya Silvestri, 1933
+98	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) meinerti Bagnall, 1918
+99	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) michelbacheri Condé & Thomas, 1957
+100	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) mineri Silvestri, 1931
+101	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) minor Wygodzinsky, 1944
+102	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) mondainii Silvestri, 1931
+103	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) monspessulana Condé, 1953
+104	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) montgomeryi Silvestri, 1912
+105	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) monticola monticola Condé & Thomas, 1957
+106	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) monticola helenae Bareth & Condé, 1958
+107	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) monticola obsoleta Condé & Thomas, 1958
+108	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) montis Gardner, 1914
+109	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) navasi Sendra & Moreno 2004
+110	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) olivieri Condé, 1955
+111	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) oredonensis Condé, 1951
+112	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) ortonedai Silvestri, 1931
+113	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) ottei Allen, 2002
+114	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) paoletii Bareth, 1993
+115	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) patrizii Condé, 1953
+116	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) pemturochaeta Silvestri, 1912
+117	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) pieltaini Silvestri, 1932
+118	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) pimenteli orientalis Silvestri, 1931
+119	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) pimenteli pimenteli Silvestri, 1931
+120	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) plusiochaeta Silvestri, 1912
+121	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) portacoeliensis Sendra & Jiménez, 1986
+122	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) posterior Silvestri, 1932
+123	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) procera Condé, 1948
+124	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) pseudofragilis Condé, 1984
+125	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) pusilla Condé, 1950
+126	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) redii Silvestri, 1912
+127	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) remyi Denis, 1930
+128	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) repentina Condé & Thomas, 1957
+129	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) rhopalota Condé, 1948
+130	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) rossi Bareth & Condé, 1958
+131	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) sarae Sendra & Teruel, 2010
+132	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) sardinensis Bareth, 1980
+133	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) schultzei Silvestri, 1933
+134	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) scopigera Condé & Thomas, 1957
+135	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) sensillifera Condé & Mathieu, 1958
+136	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) silvestrii Bagnall, 1918
+137	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) silvicola Wygodzinsky, 1941
+138	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) simulans Bareth & Condé, 1958
+139	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) staphylinus Westwood, 1842
+140	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) subdives Silvestri, 1932
+141	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) taunica Marten, 1930
+142	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) teresiae Condé & Thomas, 1957
+143	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) tristani Silvestri, 1931
+144	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) tuxeni Wygodzinsky, 1941
+145	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) usingeri Condé & Thomas, 1957
+146	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) vagans Wygodzinsky, 1944
+147	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) vihorlatensis Paclt, 1961
+148	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) vivaldii Silvestri, 1931
+149	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) wallacei Bagnall, 1918
+150	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) westwoodi Bagnall, 1918
+151	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Campodea) zuluetai Silvestri, 1932
+152	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) aemula Condé, 1953
+153	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) apula Silvestri, 1912
+154	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) aristotelis Silvestri, 1912
+155	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) azkarraga Sendra, 2006
+156	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) blancae Sendra & Moreno, 2006
+157	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) boneti Silvestri, 1932
+158	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) campestris Ionescu, 1955
+159	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) catalana Denis, 1930
+160	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) caucasica Rusek, 1965
+161	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) codinai Silvestri, 1932
+162	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) condei Rusek, 1965
+163	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) crimeaensis Rusek, 1965
+164	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) davidi Condé, 1952
+165	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) egreria Condé, 1953
+166	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) escalerai Silvestri, 1932
+167	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) frenata Silvestri, 1931
+168	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) gestrii Silvestri, 1912
+169	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) imeretinensis Chevrizov, 1976
+170	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) insulana Condé, 1952
+171	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) jolyi Condé, 1948
+172	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) kocheri Condé, 1954
+173	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) lusitana Wygodzinsky, 1944
+174	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) malpighii Silvestri, 1912
+175	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) melici Sendra, 2015
+176	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) merceti Silvestri, 1932
+177	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) neuherzi Condé, 1995
+178	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) neusae Sendra & Moreno, 2006
+179	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) pagesi Condé & Mathieu, 1957
+180	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) pardoi Silvestri, 1932
+181	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) plagiaria Silvestri, 1932
+182	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) propinqua Silvestri, 1932
+183	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) silvicola Ionescu, 1955
+184	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) sprovieri sprovieri Silvestri, 1933
+185	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) sprovieri vardousiae Condé, 1984
+186	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Dicampa) taurica Silvestri, 1949 
+187	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Hypercampa) essigi Silvestri, 1933
+188	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Indocampa) antongilensis Bareth, 1992
+189	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Indocampa) butteli Silvestri, 1916
+190	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Indocampa) chaseni Silvestri, 1933
+191	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Indocampa) deharvengi Condé, 1982
+192	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Indocampa) froggatti Silvestri, 1931
+193	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Indocampa) greeni Silvestri, 1933
+194	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Indocampa) intermedia Condé, 1990
+195	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Indocampa) novaecaledoniae Condé, 1980
+196	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Indocampa) pauliani Condé, 1953
+197	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Indocampa) rhopalophora Condé, 1953
+198	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Indocampa) sutteri Condé, 1953
+199	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Indocampa) tillyardi Silvestri, 1931
+200	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Indocampa) vadoni Condé, 1957
+201	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Indocampa) waterhousei Womersley, 1937
+202	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Monocampa) aurunca Ramellini, 1990
+203	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Monocampa) denisi Wygodzinsky, 1940
+204	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Monocampa) devoniensis Bagnall, 1918
+205	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Monocampa) emeryi emeryi Silvestri, 1912
+206	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Monocampa) emeryi algira Condé, 1948
+207	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Monocampa) emeryi spelaea Condé, 1978
+208	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Monocampa) goursati Condé, 1950
+209	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Monocampa) hauseri Condé, 1978
+210	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Monocampa) navasi Silvestri, 1932
+211	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Paurocampa) corsica Condé, 1946
+212	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Paurocampa) pretneri Condé, 1974
+213	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Paurocampa) ribauti Silvestri, 1932
+214	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Paurocampa) rocasolanoi Silvestri, 1932
+215	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Paurocampa) ruseki Condé, 1966
+216	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Paurocampa) speleaea Ionescu, 1955
+217	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Paurocampa) suensoni Tuxen, 1930
+218	Campodeidae Lubbock, 1873	Campodeinae	Campodea	Campodea (Paurocampa?) pagei Silvestri, 1931
+219	Campodeidae Lubbock, 1873	Campodeinae	Campodella	Campodella clavigera Silvestri, 1913
+220	Campodeidae Lubbock, 1873	Campodeinae	Campodella	Campodella milloti Condé, 1957
+221	Campodeidae Lubbock, 1873	Campodeinae	Campodella	Campodella tiegsi Womersley, 1939
+222	Campodeidae Lubbock, 1873	Campodeinae	Clivocampa	Clivocampa solus Allen, 1994
+223	Campodeidae Lubbock, 1873	Campodeinae	Cocytocampa	Cocytocampa catalae Condé, 1980
+224	Campodeidae Lubbock, 1873	Campodeinae	Cocytocampa	Cocytocampa eutrichoides Condé. 1994
+225	Campodeidae Lubbock, 1873	Campodeinae	Cocytocampa	Cocytocampa humphreysi Condé, 1998
+226	Campodeidae Lubbock, 1873	Campodeinae	Cocytocampa	Cocytocampa perkinsi (Silvestri, 1934) 
+227	Campodeidae Lubbock, 1873	Campodeinae	Cocytocampa	Cocytocampa solomonis Bareth & Condé, 1972
+228	Campodeidae Lubbock, 1873	Campodeinae	Cocytocampa	Cocytocampa solomonis borneensis Condé, 1990
+229	Campodeidae Lubbock, 1873	Campodeinae	Condeicampa	Condeicampa langei Ferguson, 1996
+230	Campodeidae Lubbock, 1873	Campodeinae	Edriocampa	Edriocampa ghigii Silvestri, 1933
+231	Campodeidae Lubbock, 1873	Campodeinae	Eumesocampa	Eumesocampa danielsi Silvestri, 1933
+232	Campodeidae Lubbock, 1873	Campodeinae	Eumesocampa	Eumesocampa lutzi Silvestri, 1933
+233	Campodeidae Lubbock, 1873	Campodeinae	Eutrichocampa	Eutrichocampa aegea Silvestri, 1933
+234	Campodeidae Lubbock, 1873	Campodeinae	Eutrichocampa	Eutrichocampa birabeni Wygodzinsky, 1943
+235	Campodeidae Lubbock, 1873	Campodeinae	Eutrichocampa	Eutrichocampa breviseta Silvestri, 1905
+236	Campodeidae Lubbock, 1873	Campodeinae	Eutrichocampa	Eutrichocampa chilensis Silvestri, 1902
+237	Campodeidae Lubbock, 1873	Campodeinae	Eutrichocampa	Eutrichocampa collina collina Ionescu, 1955
+238	Campodeidae Lubbock, 1873	Campodeinae	Eutrichocampa	Eutrichocampa collina ithacesia Condé, 1984
+239	Campodeidae Lubbock, 1873	Campodeinae	Eutrichocampa	Eutrichocampa durangensis García-Gómez, 2016
+240	Campodeidae Lubbock, 1873	Campodeinae	Eutrichocampa	Eutrichocampa fulleri Silvestri, 1932
+241	Campodeidae Lubbock, 1873	Campodeinae	Eutrichocampa	Eutrichocampa helvetica Wygodzinsky, 1941
+242	Campodeidae Lubbock, 1873	Campodeinae	Eutrichocampa	Eutrichocampa hispanica Silvestri, 1932
+243	Campodeidae Lubbock, 1873	Campodeinae	Eutrichocampa	Eutrichocampa inchoata Condé, 1994
+244	Campodeidae Lubbock, 1873	Campodeinae	Eutrichocampa	Eutrichocampa orientalis orientalis Silvestri, 1931
+245	Campodeidae Lubbock, 1873	Campodeinae	Eutrichocampa	Eutrichocampa orientalis inferior Silvestri, 1931
+246	Campodeidae Lubbock, 1873	Campodeinae	Eutrichocampa	Eutrichocampa paurociliata Loksa, 1960
+247	Campodeidae Lubbock, 1873	Campodeinae	Eutrichocampa	Eutrichocampa remyi Condé, 1947
+248	Campodeidae Lubbock, 1873	Campodeinae	Eutrichocampa	Eutrichocampa thamugadensis Condé, 1948
+249	Campodeidae Lubbock, 1873	Campodeinae	Eutrichocampa	Eutrichocampa wilsoni Silvestri, 1912
+250	Campodeidae Lubbock, 1873	Campodeinae	Haplocampa	Haplocampa chapmani Silvestri, 1933
+251	Campodeidae Lubbock, 1873	Campodeinae	Haplocampa	Haplocampa drakei Silvestri, 1933
+252	Campodeidae Lubbock, 1873	Campodeinae	Haplocampa	Haplocampa rugglesi Silvestri, 1933
+253	Campodeidae Lubbock, 1873	Campodeinae	Haplocampa	Haplocampa wagnelli Sendra & Wagnell, 2019
+254	Campodeidae Lubbock, 1873	Campodeinae	Haplocampa	Haplocampa wheeleri wheeleri Silvestri, 1912
+255	Campodeidae Lubbock, 1873	Campodeinae	Haplocampa	Haplocampa wheeleri intermedia Silvestri, 1933
+256	Campodeidae Lubbock, 1873	Campodeinae	Helladocampa	Helladocampa mahnerti Condé, 1984
+257	Campodeidae Lubbock, 1873	Campodeinae	Libanocampa	Libanocampa coiffaiti Condé, 1955
+258	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa aridus Allen, 2006
+259	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa atoyacensis (Wygodzinsky, 1944)
+260	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa bourgoini (Condé, 1948)
+261	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa brasiliensis (Wygodzinsky, 1944)
+262	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa cognata (Condé, 1948)
+263	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa coiffaiti (Condé, 1948)
+264	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa condei Ferguson, 1999
+265	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa drescoi (Condé, 1949)
+266	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa ecuscatra Allen, 2006
+267	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa enriqueriojai Sendra & García, 2016
+268	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa espanoli (Condé, 1949)
+269	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa fieldingae (Condé, 1949)
+270	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa grishami Allen, 2006
+271	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa henroti (Condé, 1949)
+272	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa henryi Condé, 1991
+273	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa hoffmani Ferguson, 2009
+274	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa hubarti Bareth, 1999
+275	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa humilis humilis Condé, 1948
+276	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa humilis comani Condé, 1991
+277	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa jonesi (Condé, 1949)
+278	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa mendesi Sendra & Reboleira, 2010
+279	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa montana (Ionescu, 1955)
+280	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa neotropica (Silvestri, 1933)
+281	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa pucketti Condé & Bareth, 1996
+282	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa quadrisetigera Bareth, 2001
+283	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa sollaudi (Denis, 1930)
+284	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa tennesseensis Allen, 2003
+285	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa tuzetae (Condé, 1947)
+286	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa ultimus Allen, 2006
+287	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa valentinei (Condé, 1949)
+288	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa vandeli (Condé, 1946)
+289	Campodeidae Lubbock, 1873	Campodeinae	Litocampa	Litocampa zaldivarae Sendra, Salgado & Monedero, 2003
+290	Campodeidae Lubbock, 1873	Campodeinae	Litocampa ?	Litocampa? aethiopica (Silvestri, 1933)
+291	Campodeidae Lubbock, 1873	Campodeinae	Metriocampa	Metriocampa allocerca Condé & Geeraert, 1962
+292	Campodeidae Lubbock, 1873	Campodeinae	Metriocampa	Metriocampa allura Silvestri, 1933
+293	Campodeidae Lubbock, 1873	Campodeinae	Metriocampa	Metriocampa asiatica Chevrizov, 1976
+294	Campodeidae Lubbock, 1873	Campodeinae	Metriocampa	Metriocampa aspinosa Allen, 2002
+295	Campodeidae Lubbock, 1873	Campodeinae	Metriocampa	Metriocampa hatchi Silvestri, 1933
+296	Campodeidae Lubbock, 1873	Campodeinae	Metriocampa	Metriocampa kuwayamae Silvestri, 1931
+297	Campodeidae Lubbock, 1873	Campodeinae	Metriocampa	Metriocampa litura Condé & Thomas, 1957
+298	Campodeidae Lubbock, 1873	Campodeinae	Metriocampa	Metriocampa matsumurai Silvestri, 1931
+299	Campodeidae Lubbock, 1873	Campodeinae	Metriocampa	Metriocampa montanensis (Hilton, 1936)
+300	Campodeidae Lubbock, 1873	Campodeinae	Metriocampa	Metriocampa oregonensis (Hilton, 1936)
+301	Campodeidae Lubbock, 1873	Campodeinae	Metriocampa	Metriocampa packardi Silvestri, 1912
+302	Campodeidae Lubbock, 1873	Campodeinae	Metriocampa	Metriocampa paradoxa Condé & Geeraert, 1962
+303	Campodeidae Lubbock, 1873	Campodeinae	Metriocampa	Metriocampa petrunkevitchi Silvestri, 1933
+304	Campodeidae Lubbock, 1873	Campodeinae	Metriocampa	Metriocampa remingtoni Condé & Geeraert, 1962
+305	Campodeidae Lubbock, 1873	Campodeinae	Metriocampa	Metriocampa rileyi Silvestri, 1933
+306	Campodeidae Lubbock, 1873	Campodeinae	Metriocampa	Metriocampa sahi Silvestri, 1931
+307	Campodeidae Lubbock, 1873	Campodeinae	Metriocampa	Metriocampa urumqiensis Chou & Chen, 1980
+308	Campodeidae Lubbock, 1873	Campodeinae	Metriocampa	Metriocampa vandykei vandykei Silvestri, 1933
+309	Campodeidae Lubbock, 1873	Campodeinae	Metriocampa	Metriocampa (Metriocampa) vandykei inermis Condé & Geeraert, 1962
+310	Campodeidae Lubbock, 1873	Campodeinae	Metriocampa	Metriocampa wuyanlinensii Xie & Yang, 1990
+311	Campodeidae Lubbock, 1873	Campodeinae	Mexicampa	Mexicampa chapulhuacanensis (Wygodzinsky, 1944)
+312	Campodeidae Lubbock, 1873	Campodeinae	Mexicampa	Mexicampa dampfi (Wygodzinsky, 1944)
+313	Campodeidae Lubbock, 1873	Campodeinae	Mexicampa	Mexicampa handschini (Wygodzinsky, 1944)
+314	Campodeidae Lubbock, 1873	Campodeinae	Mexicampa	Mexicampa pelaezi (Wygodzinsky, 1944)
+315	Campodeidae Lubbock, 1873	Campodeinae	Mexicampa	Mexicampa stachi (Wygodzinsky, 1944)
+316	Campodeidae Lubbock, 1873	Campodeinae	Molaricampa	Molaricampa fergusoni Allen, 2005
+317	Campodeidae Lubbock, 1873	Campodeinae	Muratovocampa	Muratovocampa jamaicensis Allen & Rosenberg, 2005
+318	Campodeidae Lubbock, 1873	Campodeinae	Natalocampa	Natalocampa mesotrisetosa Allen, 2002
+319	Campodeidae Lubbock, 1873	Campodeinae	Natalocampa	Natalocampa princeps Condé, 1951
+320	Campodeidae Lubbock, 1873	Campodeinae	Neocampa	Neocampa ameghinoi (Silvestri, 1931)
+321	Campodeidae Lubbock, 1873	Campodeinae	Neocampa	Neocampa gallardoi (Silvestri, 1931)
+322	Campodeidae Lubbock, 1873	Campodeinae	Notocampa	Notocampa afra (Condé, 1950)
+323	Campodeidae Lubbock, 1873	Campodeinae	Notocampa	Notocampa leai (Silvestri, 1931)
+324	Campodeidae Lubbock, 1873	Campodeinae	Notocampa	Notocampa madecassa Condé, 1953
+325	Campodeidae Lubbock, 1873	Campodeinae	Notocampa	Notocampa pacifica (Silvestri, 1905)
+326	Campodeidae Lubbock, 1873	Campodeinae	Notocampa	Notocampa philpotti (Tillyard, 1924)
+327	Campodeidae Lubbock, 1873	Campodeinae	Notocampa	Notocampa westraliense Womersley, 1937
+328	Campodeidae Lubbock, 1873	Campodeinae	Ombrocampa	Ombrocampa dahli (Condé, 1956)
+329	Campodeidae Lubbock, 1873	Campodeinae	Ombrocampa	Ombrocampa depauperata (Silvestri, 1918)
+330	Campodeidae Lubbock, 1873	Campodeinae	Ombrocampa	Ombrocampa nyongensis (Condé, 1956)
+331	Campodeidae Lubbock, 1873	Campodeinae	Oreocampa	Oreocampa minutella (Silvestri, 1918)
+332	Campodeidae Lubbock, 1873	Campodeinae	Orientocampa	Orientocampa frigillis (Hilton, 1936)
+333	Campodeidae Lubbock, 1873	Campodeinae	Pacificampa	Pacificampa birsteini Chevrizov, 1978
+334	Campodeidae Lubbock, 1873	Campodeinae	Pacificampa	Pacificampa caesa Chevrizov, 1978
+335	Campodeidae Lubbock, 1873	Campodeinae	Pacificampa	Pacificampa daidarabotchi Sendra, 2018
+336	Campodeidae Lubbock, 1873	Campodeinae	Pacificampa	Pacificampa nipponica Sendra, 2018
+337	Campodeidae Lubbock, 1873	Campodeinae	Pacificampa	Pacificampa wudonghuii Sendra, 2021
+338	Campodeidae Lubbock, 1873	Campodeinae	Papucampa	Papucampa coineae Condé, 1982
+339	Campodeidae Lubbock, 1873	Campodeinae	Parallocampa	Parallocampa arizonica Bareth & Condé, 1958
+340	Campodeidae Lubbock, 1873	Campodeinae	Parallocampa	Parallocampa arizoniensis Allen, 2002
+341	Campodeidae Lubbock, 1873	Campodeinae	Parallocampa	Parallocampa azteca Silvestri, 1933
+342	Campodeidae Lubbock, 1873	Campodeinae	Parallocampa	Parallocampa cavernicola Wygodzinsky, 1944
+343	Campodeidae Lubbock, 1873	Campodeinae	Parallocampa	Parallocampa chipinquensis Wygodzinsky, 1944
+344	Campodeidae Lubbock, 1873	Campodeinae	Parallocampa	Parallocampa hermsi Silvestri, 1933
+345	Campodeidae Lubbock, 1873	Campodeinae	Parallocampa	Parallocampa mickeli Silvestri, 1933
+346	Campodeidae Lubbock, 1873	Campodeinae	Parallocampa	Parallocampa newcomeri Silvestri, 1933
+347	Campodeidae Lubbock, 1873	Campodeinae	Parallocampa	Parallocampa paupercula Silvestri, 1933
+348	Campodeidae Lubbock, 1873	Campodeinae	Parallocampa	Parallocampa spenceri (Silvestri, 1933)
+349	Campodeidae Lubbock, 1873	Campodeinae	Parallocampa	Parallocampa wilsoni (Silvestri, 1912)
+350	Campodeidae Lubbock, 1873	Campodeinae	Podocampa	Podocampa asturiana asturiana Sendra, Salgado & Monedero, 2003
+351	Campodeidae Lubbock, 1873	Campodeinae	Podocampa	Podocampa asturiana riberiensis Sendra, Salgado & Monedero, 2003
+352	Campodeidae Lubbock, 1873	Campodeinae	Podocampa	Podocampa barbouri Silvestri, 1931
+353	Campodeidae Lubbock, 1873	Campodeinae	Podocampa	Podocampa bonazzii Silvestri, 1931
+354	Campodeidae Lubbock, 1873	Campodeinae	Podocampa	Podocampa bottimeri Condé & Geeraert, 1962
+355	Campodeidae Lubbock, 1873	Campodeinae	Podocampa	Podocampa brolemanni Denis, 1932
+356	Campodeidae Lubbock, 1873	Campodeinae	Podocampa	Podocampa cardini (Silvestri, 1932)
+357	Campodeidae Lubbock, 1873	Campodeinae	Podocampa	Podocampa cavernicola (Wygodzinsky, 1944)
+358	Campodeidae Lubbock, 1873	Campodeinae	Podocampa	Podocampa ceballosi (Silvestri, 1932)
+359	Campodeidae Lubbock, 1873	Campodeinae	Podocampa	Podocampa cerruti cerruti Condé, 1975
+360	Campodeidae Lubbock, 1873	Campodeinae	Podocampa	Podocampa cerruti kahmanni Condé, 1975
+361	Campodeidae Lubbock, 1873	Campodeinae	Podocampa	Podocampa confinis Condé & Geeraert, 1962
+362	Campodeidae Lubbock, 1873	Campodeinae	Podocampa	Podocampa fragiliformis Condé, 1953
+363	Campodeidae Lubbock, 1873	Campodeinae	Podocampa	Podocampa fragiloides (Silvestri, 1932)
+364	Campodeidae Lubbock, 1873	Campodeinae	Podocampa	Podocampa iglesiasi (Silvestri, 1932)
+365	Campodeidae Lubbock, 1873	Campodeinae	Podocampa	Podocampa inveterata Allen, 1993
+366	Campodeidae Lubbock, 1873	Campodeinae	Podocampa	Podocampa jeanneli (Condé, 1947)
+367	Campodeidae Lubbock, 1873	Campodeinae	Podocampa	Podocampa jorgei (Wygodzinsky, 1944)
+368	Campodeidae Lubbock, 1873	Campodeinae	Podocampa	Podocampa latipes Condé, 1993
+369	Campodeidae Lubbock, 1873	Campodeinae	Podocampa	Podocampa mauritanica (Silvestri, 1932)
+370	Campodeidae Lubbock, 1873	Campodeinae	Podocampa	Podocampa mexicana (Packard, 1886)
+371	Campodeidae Lubbock, 1873	Campodeinae	Podocampa	Podocampa molineti Silvestri, 1931
+372	Campodeidae Lubbock, 1873	Campodeinae	Podocampa	Podocampa moroderi (Silvestri, 1932)
+373	Campodeidae Lubbock, 1873	Campodeinae	Podocampa	Podocampa rifiana Silvestri, 1932
+374	Campodeidae Lubbock, 1873	Campodeinae	Podocampa	Podocampa seabrai (Wygodzinsky, 1944)
+375	Campodeidae Lubbock, 1873	Campodeinae	Podocampa	Podocampa serbica Karaman & Blesić, 1983
+376	Campodeidae Lubbock, 1873	Campodeinae	Podocampa	Podocampa simonini Condé, 1956
+377	Campodeidae Lubbock, 1873	Campodeinae	Podocampa	Podocampa vicina Condé & Geeraert, 1962
+378	Campodeidae Lubbock, 1873	Campodeinae	Pseudlibanocampa	Pseudlibanocampa sinensis Xie & Yang, 1990
+379	Campodeidae Lubbock, 1873	Campodeinae	Remycampa	Remycampa herbanica Sendra & Oromí, 2020
+380	Campodeidae Lubbock, 1873	Campodeinae	Remycampa	Remycampa launeyi Condé, 1952
+381	Campodeidae Lubbock, 1873	Campodeinae	Spaniocampa	Spaniocampa prima Silvestri, 1933
+382	Campodeidae Lubbock, 1873	Campodeinae	Spaniocampa	Spaniocampa relicta Sendra & López, 2020
+383	Campodeidae Lubbock, 1873	Hemicampinae	Hemicampa	Hemicampa bolivari Wygodzinsky, 1944
+384	Campodeidae Lubbock, 1873	Hemicampinae	Hemicampa	Hemicampa boudreauxi Condé & Geeraert, 1962
+385	Campodeidae Lubbock, 1873	Hemicampinae	Hemicampa	Hemicampa osborni Silvestri, 1912
+386	Campodeidae Lubbock, 1873	Hemicampinae	Tritocampa	Tritocampa guianae Silvestri, 1933
+387	Campodeidae Lubbock, 1873	Lepidocampinae	Lepidocampa	Lepidocampa angulata Condé, 1990
+388	Campodeidae Lubbock, 1873	Lepidocampinae	Lepidocampa	Lepidocampa armata Condé, 1994
+389	Campodeidae Lubbock, 1873	Lepidocampinae	Lepidocampa	Lepidocampa beltrani Sendra, 2016
+390	Campodeidae Lubbock, 1873	Lepidocampinae	Lepidocampa	Lepidocampa chapmani Condé, 1989
+391	Campodeidae Lubbock, 1873	Lepidocampinae	Lepidocampa	Lepidocampa deharvengi Condé, 1994
+392	Campodeidae Lubbock, 1873	Lepidocampinae	Lepidocampa	Lepidocampa fimbriatipes Carpenter, 1916
+393	Campodeidae Lubbock, 1873	Lepidocampinae	Lepidocampa	Lepidocampa giffardi Silvestri, 1931
+394	Campodeidae Lubbock, 1873	Lepidocampinae	Lepidocampa	Lepidocampa gravelyi gravelyi Silvestri, 1933
+395	Campodeidae Lubbock, 1873	Lepidocampinae	Lepidocampa	Lepidocampa gravelyi pectinata Condé, 1953
+396	Campodeidae Lubbock, 1873	Lepidocampinae	Lepidocampa	Lepidocampa gravelyi submissa Silvestri, 1933
+397	Campodeidae Lubbock, 1873	Lepidocampinae	Lepidocampa	Lepidocampa heteroclita Condé, 1993
+398	Campodeidae Lubbock, 1873	Lepidocampinae	Lepidocampa	Lepidocampa hypogaea Condé, 1992
+399	Campodeidae Lubbock, 1873	Lepidocampinae	Lepidocampa	Lepidocampa juberthiei Condé, 1993
+400	Campodeidae Lubbock, 1873	Lepidocampinae	Lepidocampa	Lepidocampa juradoi juradoi Silvestri, 1931
+401	Campodeidae Lubbock, 1873	Lepidocampinae	Lepidocampa	Lepidocampa juradoi guineensis Silvestri, 1933
+402	Campodeidae Lubbock, 1873	Lepidocampinae	Lepidocampa	Lepidocampa juradoi afra Silvestri, 1933
+403	Campodeidae Lubbock, 1873	Lepidocampinae	Lepidocampa	Lepidocampa juradoi seclusa Condé, 1960
+404	Campodeidae Lubbock, 1873	Lepidocampinae	Lepidocampa	Lepidocampa juradoi senegalensis Silvestri, 1933
+405	Campodeidae Lubbock, 1873	Lepidocampinae	Lepidocampa	Lepidocampa martinicensis Condé & Bareth, 1983
+406	Campodeidae Lubbock, 1873	Lepidocampinae	Lepidocampa	Lepidocampa poeyi Silvestri, 1931
+407	Campodeidae Lubbock, 1873	Lepidocampinae	Lepidocampa	Lepidocampa polettii Silvestri, 1931
+408	Campodeidae Lubbock, 1873	Lepidocampinae	Lepidocampa	Lepidocampa takahashii Silvestri, 1931
+409	Campodeidae Lubbock, 1873	Lepidocampinae	Lepidocampa	Lepidocampa weberi weberi Oudemans, 1890
+410	Campodeidae Lubbock, 1873	Lepidocampinae	Lepidocampa	Lepidocampa weberi borneensis Silvestri, 1933
+411	Campodeidae Lubbock, 1873	Lepidocampinae	Lepidocampa	Lepidocampa weberi nepalensis Condé, 1993
+412	Campodeidae Lubbock, 1873	Lepidocampinae	Lepidocampa	Lepidocampa weberi ceylonica Silvestri, 1933
+413	Campodeidae Lubbock, 1873	Lepidocampinae	Lepidocampa	Lepidocampa weberi lawrencei Bareth & Condé, 1972
+414	Campodeidae Lubbock, 1873	Lepidocampinae	Lepidocampa	Lepidocampa zeteki Folsom, 1927
+415	Campodeidae Lubbock, 1873	Lepidocampinae	Sinocampa	Sinocampa huangi Chou & Chen, 1981
+416	Campodeidae Lubbock, 1873	Lepidocampinae	Sinocampa	Sinocampa zayuensis Chou & Chen, 1981
+417	Campodeidae Lubbock, 1873	Plusiocampinae	Anisuracampa	Anisuracampa suoxiensis Xie & Yang, 1990
+418	Campodeidae Lubbock, 1873	Plusiocampinae	Anisuracampa	Anisuracampa ywangana Sendra & Komerički, 2021
+419	Campodeidae Lubbock, 1873	Plusiocampinae	Cestocampa	Cestocampa balcanica Condé, 1956
+420	Campodeidae Lubbock, 1873	Plusiocampinae	Cestocampa	Cestocampa gasparoi Bareth, 1988
+421	Campodeidae Lubbock, 1873	Plusiocampinae	Cestocampa	Cestocampa iberica Sendra & Condé, 2012
+422	Campodeidae Lubbock, 1873	Plusiocampinae	Cestocampa	Cestocampa italica (Silvestri, 1912)
+423	Campodeidae Lubbock, 1873	Plusiocampinae	Cestocampa ?	Cestocampa? kashiensis Chou & Chen, 1980
+424	Campodeidae Lubbock, 1873	Plusiocampinae	Cycladiacampa	Cycladiacampa irakleia Sendra, 2020
+425	Campodeidae Lubbock, 1873	Plusiocampinae	Hubeicampa	Hubeicampa lipsae (Condé, 1993)
+426	Campodeidae Lubbock, 1873	Plusiocampinae	Hubeicampa	Hubeicampa melissa Sendra & Lips, 2021
+427	Campodeidae Lubbock, 1873	Plusiocampinae	Hystrichocampa	Hystrichocampa pelletieri Condé, 1948
+428	Campodeidae Lubbock, 1873	Plusiocampinae	Leletocampa	Leletocampa marthaleri Condé, 1982
+429	Campodeidae Lubbock, 1873	Plusiocampinae	Patrizicampa	Patrizicampa sardoa Condé, 1956
+430	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Dydimocampa) alhamae Condé & Sendra, 1989
+431	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Dydimocampa) euxina Condé, 1996
+432	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Dydimocampa) evallonychia Silvestri, 1949
+433	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Pentachaetocampa) inopinata Sendra & Weber, 2018
+434	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) affinis Condé, 1947
+435	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) apollo Sendra, Giachino & Vailati, 2020
+436	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) arbanisiensis Bareth & Condé, 2001
+437	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) baetica Sendra, 2004
+438	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) balsani Condé, 1947
+439	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) beroni Bareth & Condé, 2001
+440	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) bonadonai bonadonai Condé, 1948
+441	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) bonadonai lanzai Condé, 1961
+442	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) bonadonai pavani Condé & Poivre, 1982
+443	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) bonneti bonneti Condé, 1948
+444	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) bonneti condei Sendra & Escolà, 2004
+445	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) bonneti deharvengi Bareth & Condé, 1996
+446	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) breuili Condé, 1955
+447	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) breviantennata Loksa, 1960
+448	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) bulgarica Silvestri, 1931
+449	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) caprai Condé, 1950
+450	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) chiosensis Sendra & Gasparo, 2020
+451	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) corcyraea corcyraea Silvestri, 1912
+452	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) corcyraea abdominalis Condé, 1984
+453	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) cyrnensis Condé, 1953
+454	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) dallai Bareth & Condé, 1984
+455	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) dargilani (Moniez, 1894)
+456	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) djurdjurae Condé, 1984
+457	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) dobati Condé, 1975
+458	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) dolichopoda Bareth & Condé 1984
+459	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) dublanskii Sendra & Turbanov 2020
+460	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) elongata Ionescu, 1955
+461	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) exsulans Condé, 1947
+462	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) fagei Condé, 1955
+463	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) festai Silvestri, 1932
+464	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) friulensis Bareth & Condé, 1984
+465	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) gadorensis Sendra, 2001
+466	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) glabra Condé, 1984
+467	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) grandii Silvesri, 1933
+468	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) gueorguievi Bareth & Condé, 2001
+469	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) hoelzeli (Neuherz, 1984)
+470	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) hoffmanni Sendra & Paragamian 2020
+471	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) humicola Ionescu, 1951
+472	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) hystricula Bareth & Condé, 1984
+473	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) isterina Condé, 1993
+474	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) lagari Sendra & Condé, 1987
+475	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) lagoi Silvestri, 1932
+476	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) latens Condé, 1948
+477	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) lindbergi Condé, 1956
+478	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) lucenti Sendra & Condé, 1986
+479	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) magdalenae Condé, 1957
+480	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) notabilis Silvestri, 1912
+481	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) pouadensis pouadensis (Denis, 1930)
+482	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) pouadensis fouresi Condé, 1956
+483	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) pouadensis leoni Condé, 1951
+484	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) provincialis provincialis Condé, 1949
+485	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) provincialis praedita Condé, 1949
+486	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) rhea Sendra 2020
+487	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) romana Condé, 1954
+488	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) rudnica Blesić, 1992
+489	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) rybaki Condé, 1956
+490	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) sardiniana Condé, 1981
+491	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) schweitzeri Condé, 1947
+492	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) socia Condé, 1983
+493	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) solerii Silvestri, 1932
+494	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) spelaea Stach, 1930
+495	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) strouhali strouhali Silvestri, 1933
+496	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) strouhali cavicola Vornatscher, 1943
+497	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) ternovensis Sendra & Borko 2020
+498	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) tinoamorei Sendra & Nicolosi, 2019
+499	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) vedovinii Condé, 1981
+500	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Plusiocampa) vodniensis Bareth & Condé, 2001
+501	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Stygiocampa) bureschi Silvestri, 1931
+502	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Stygiocampa) christiani Condé & Bareth, 1966
+503	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Stygiocampa) dalmatica Condé, 1959
+504	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Stygiocampa) denisi Condé, 1947
+505	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Stygiocampa) nivea (Joseph, 1882)
+506	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Stygiocampa) remyi Condé, 1947
+507	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Venetocampa) ferrani Sendra & Delić, 2020
+508	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa	Plusiocampa (Venetocampa) paolettii Bareth & Condé, 1984
+509	Campodeidae Lubbock, 1873	Plusiocampinae	Plusiocampa ?	Plusiocampa? sinensis Silvestri, 1931
+510	Campodeidae Lubbock, 1873	Plusiocampinae	Plutocampa	Plutocampa methoria Chevrizov, 1978
+511	Campodeidae Lubbock, 1873	Plusiocampinae	Plutocampa	Plutocampa paurochaeta Chevrizov, 1978
+512	Campodeidae Lubbock, 1873	Plusiocampinae	Plutocampa	Plutocampa speophila Chevrizov, 1978
+513	Campodeidae Lubbock, 1873	Plusiocampinae	Silvestricampa	Silvestricampa africana (Silvestri, 1913)
+514	Campodeidae Lubbock, 1873	Plusiocampinae	Silvestricampa	Silvestricampa lawrencei Condé, 1950
+515	Campodeidae Lubbock, 1873	Plusiocampinae	Silvestricampa	Silvestricampa nexa Condé, 1955
+516	Campodeidae Lubbock, 1873	Plusiocampinae	Silvestricampa	Silvestricampa proxima Condé, 1950
+517	Campodeidae Lubbock, 1873	Plusiocampinae	Simlacampa	Simlacampa clayae Condé, 1956
+518	Campodeidae Lubbock, 1873	Plusiocampinae	Turkmenocampa	Turkmenocampa mirabilis Sendra & Stoev, 2017
+519	Campodeidae Lubbock, 1873	Plusiocampinae	Vandelicampa	Vandelicampa tisserandi Condé, 1955
+520	Campodeidae Lubbock, 1873	Plusiocampinae	Whittencampa	Whittencampa troglobia Sendra & Deharveng, 2020
+521	Campodeidae Lubbock, 1873	Syncampinae	Syncampa	Syncampa smithi Silvestri, 1931
+522	Campodeidae Lubbock, 1873	tachycampoid	Jeannelicampa	Jeannelicampa stygia Condé 1952
+523	Campodeidae Lubbock, 1873	tachycampoid	Juxtlacampa	Juxtlacampa fernandodebueni Sendra & García, 2016
+524	Campodeidae Lubbock, 1873	tachycampoid	Juxtlacampa	Juxtlacampa hauseri Condé, 1975
+525	Campodeidae Lubbock, 1873	tachycampoid	Juxtlacampa	Juxtlacampa juxtlahuacensis Wygodzinsky, 1944
+526	Campodeidae Lubbock, 1873	tachycampoid	Oncinocampa	Oncinocampa asonensis Sendra & Condé, 1988
+527	Campodeidae Lubbock, 1873	tachycampoid	Oncinocampa	Oncinocampa bolivarurrutiae Sendra & García, 2016
+528	Campodeidae Lubbock, 1873	tachycampoid	Oncinocampa	Oncinocampa falcifer Condé, 1982
+529	Campodeidae Lubbock, 1873	tachycampoid	Oncinocampa	Oncinocampa genuitei Bareth, 1989
+530	Campodeidae Lubbock, 1873	tachycampoid	Oncinocampa	Oncinocampa paclti Condé, 1981
+531	Campodeidae Lubbock, 1873	tachycampoid	Oncinocampa	Oncinocampa trajanoae Condé, 1997
+532	Campodeidae Lubbock, 1873	tachycampoid	Paratachycampa	Paratachycampa boneti Wygodzinsky, 1944
+533	Campodeidae Lubbock, 1873	tachycampoid	Paratachycampa	Paratachycampa hispanica Bareth & Condé, 1981
+534	Campodeidae Lubbock, 1873	tachycampoid	Paratachycampa	Paratachycampa penyoensis Bareth & Condé, 1981
+535	Campodeidae Lubbock, 1873	tachycampoid	Tachycampa	Tachycampa bolivarpieltaini Sendra & García, 2016
+536	Campodeidae Lubbock, 1873	tachycampoid	Tachycampa	Tachycampa carlosjuarezi Palacios & Sendra, 2016
+537	Campodeidae Lubbock, 1873	tachycampoid	Tachycampa	Tachycampa clemenciae Sendra & García, 2016
+538	Campodeidae Lubbock, 1873	tachycampoid	Tachycampa	Tachycampa lepineyi Silvestri, 1936
+539	Dinjapygidae Womersley, 1939		Dinjapyx	Dinjapyx barbatus Silvestri, 1930
+540	Dinjapygidae Womersley, 1939		Dinjapyx	Dinjapyx manni Silvestri, 1948
+541	Dinjapygidae Womersley, 1939		Dinjapyx	Dinjapyx marcusi Silvestri, 1948
+542	Dinjapygidae Womersley, 1939		Dinjapyx	Dinjapyx michelbacheri Smith, 1959
+543	Dinjapygidae Womersley, 1939		Dinjapyx	Dinjapyx rossi Smith, 1959
+544	Dinjapygidae Womersley, 1939		Dinjapyx	Dinjapyx weyrauchi Gonzalez, 1964
+545	Evalljapygidae Silvestri, 1949		Ctenjapyx	Ctenjapyx boneti Silvestri, 1948
+546	Evalljapygidae Silvestri, 1949		Ctenjapyx	Ctenjapyx chamelana Garcia-Gómez, 2010
+547	Evalljapygidae Silvestri, 1949		Ctenjapyx	Ctenjapyx parkeri Smith, 1964
+548	Evalljapygidae Silvestri, 1949		Eojapyx	Eojapyx pedis Smith, 1960
+549	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx adonis Smith, 1960
+550	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx aguayoi Silvestri, 1929
+551	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx anombris Smith, 1960
+552	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx bolivari Silvestri, 1948
+553	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx boneti Silvestri, 1948
+554	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx brevipalpus Silvestri, 1911
+555	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx bruneri Silvestri, 1929
+556	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx costaricanus Silvestri, 1949
+557	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx crassicauda Silvestri, 1929
+558	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx cubanus Silvestri, 1929
+559	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx darlingtoni Silvestri, 1947
+560	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx decorus Smith, 1960
+561	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx dispar Silvestri, 1947
+562	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx diversipleura Silvestri, 1911
+563	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx dolichodduus Silvestri, 1911
+564	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx duricauda Ewing & Fox, 1942
+565	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx euryhebdomus Silvestri, 1911
+566	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx facetus Smith, 1959
+567	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx furciger Silvestri, 1911
+568	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx helferi Smith, 1959
+569	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx heterurus Silvestri, 1911
+570	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx hubbardi (Cook, 1899)
+571	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx leechi Smith, 1960
+572	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx leleuporum Paclt, 1976
+573	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx limpia Mugge, 2004
+574	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx macswaini Smith, 1960
+575	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx manni Ewing & Fox, 1942
+576	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx mckenziei Smith, 1960
+577	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx newelli Smith, 1960
+578	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx ombris Smith, 1960
+579	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx propinquus Silvestri, 1911
+580	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx raneyi Smith, 1959
+581	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx saundersi Pagés, 1996
+582	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx sonoranus Silvestri, 1911
+583	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx subinermis Silvestri, 1929
+584	Evalljapygidae Silvestri, 1949		Evalljapyx	Evalljapyx vicinior Silvestri, 1948
+585	Evalljapygidae Silvestri, 1949		Nanojapyx	Nanojapyx coalingae Smith, 1959
+586	Evalljapygidae Silvestri, 1949		Nanojapyx	Nanojapyx gentilei Smith, 1959
+587	Evalljapygidae Silvestri, 1949		Nanojapyx	Nanojapyx hamoni Smith, 1959
+588	Evalljapygidae Silvestri, 1949		Nanojapyx	Nanojapyx pagesi Smith, 1959
+589	Evalljapygidae Silvestri, 1949		Nanojapyx	Nanojapyx pricei Smith, 1959
+590	Evalljapygidae Silvestri, 1949		Provalljapyx	Provalljapyx brasiliensis Smith, 1962
+591	Evalljapygidae Silvestri, 1949		Provalljapyx	Provalljapyx lanei Silvestri, 1949
+592	Heterojapygidae Womersley, 1939		Atlasjapyx	Atlasjapyx atlas Chou & Huang, 1986
+593	Heterojapygidae Womersley, 1939		Choujapyx	Choujapyx choui Huand, 2001
+594	Heterojapygidae Womersley, 1939		Gigasjapyx	Gigasjapyx termitophilus Chou, 1984
+595	Heterojapygidae Womersley, 1939		Heterojapyx	Heterojapyx dux (Skorikov, 1900)
+596	Heterojapygidae Womersley, 1939		Heterojapyx	Heterojapyx evansi Womersley, 1934
+597	Heterojapygidae Womersley, 1939		Heterojapyx	Heterojapyx gallardi Tillyard, 1924
+598	Heterojapygidae Womersley, 1939		Heterojapyx	Heterojapyx novaezeelandiae (Verhoeff, 1903)
+599	Heterojapygidae Womersley, 1939		Heterojapyx	Heterojapyx souliei (Bouvier, 1905)
+600	Heterojapygidae Womersley, 1939		Heterojapyx	Heterojapyx tambourinensis Womersley, 1934
+601	Heterojapygidae Womersley, 1939		Heterojapyx	Heterojapyx victoriae Silvestri, 1911
+602	Japygidae Haliday, 1864		Abjapyx	Abjapyx lepesmei Silvestri, 1949
+603	Japygidae Haliday, 1864		Afrojapyx	Afrojapyx africanus (Karsch, 1893)
+604	Japygidae Haliday, 1864		Afrojapyx	Afrojapyx congoanus Silvestri, 1949
+605	Japygidae Haliday, 1864		Afrojapyx	Afrojapyx mixtus Pagés, 1957
+606	Japygidae Haliday, 1864		Afrojapyx	Afrojapyx stricklandi stricklandi Silvestri, 1948
+607	Japygidae Haliday, 1864		Afrojapyx	Afrojapyx stricklandi modestior Silvestri, 1948
+608	Japygidae Haliday, 1864		Allojapyx	Allojapyx allodontus (Silvestri, 1911)
+609	Japygidae Haliday, 1864		Allurjapyx	Allurjapyx aethiopicus Silvestri, 1930
+610	Japygidae Haliday, 1864		Austrjapyx	Austrjapyx aberrans Silvestri, 1949
+611	Japygidae Haliday, 1864		Austrjapyx	Austrjapyx autuorii autuorii Silvestri, 1949
+612	Japygidae Haliday, 1864		Austrjapyx	Austrjapyx autuorii paranensis Silvestri, 1949
+613	Japygidae Haliday, 1864		Austrjapyx	Austrjapyx barberoi Silvestri, 1949
+614	Japygidae Haliday, 1864		Austrjapyx	Austrjapyx bitancourti Silvestri, 1949
+615	Japygidae Haliday, 1864		Austrjapyx	Austrjapyx chapecoi Smith & Gonzalez, 1964
+616	Japygidae Haliday, 1864		Austrjapyx	Austrjapyx degradans Silvestri, 1949
+617	Japygidae Haliday, 1864		Austrjapyx	Austrjapyx descolei Silvestri, 1949
+618	Japygidae Haliday, 1864		Austrjapyx	Austrjapyx leleupi Pagés, 1952
+619	Japygidae Haliday, 1864		Austrjapyx	Austrjapyx lilloi Silvestri, 1949
+620	Japygidae Haliday, 1864		Austrjapyx	Austrjapyx neotropicalis neotropicalis (Silvestri, 1902)
+621	Japygidae Haliday, 1864		Austrjapyx	Austrjapyx neotropicalis progressus (Silvestri, 1949)
+622	Japygidae Haliday, 1864		Austrjapyx	Austrjapyx parvulus Silvestri, 1949
+623	Japygidae Haliday, 1864		Austrjapyx	Austrjapyx peluffoi Silvestri, 1949
+624	Japygidae Haliday, 1864		Austrjapyx	Austrjapyx proditus (Silvestri, 1918)
+625	Japygidae Haliday, 1864		Austrjapyx	Austrjapyx rochalimai Silvestri, 1949
+626	Japygidae Haliday, 1864		Austrjapyx	Austrjapyx teutonius Smith & Gonzalez, 1964
+627	Japygidae Haliday, 1864		Austrjapyx	Austrjapyx travassosi travassosi Silvestri, 1949
+628	Japygidae Haliday, 1864		Austrjapyx	Austrjapyx travassosi regressus Silvestri, 1949
+629	Japygidae Haliday, 1864		Burmjapyx	Burmjapyx huashanensis Chou, 1983
+630	Japygidae Haliday, 1864		Burmjapyx	Burmjapyx inferus (Carpenter, 1932)
+631	Japygidae Haliday, 1864		Burmjapyx	Burmjapyx lienhardi Pagés, 2000
+632	Japygidae Haliday, 1864		Burmjapyx	Burmjapyx megurus Silvestri, 1949
+633	Japygidae Haliday, 1864		Burmjapyx	Burmjapyx murphyi Pagés, 2000
+634	Japygidae Haliday, 1864		Burmjapyx	Burmjapyx oudemansi (Parona, 1892)
+635	Japygidae Haliday, 1864		Burmjapyx	Burmjapyx paronai Silvestri, 1930
+636	Japygidae Haliday, 1864		Catajapyx	Catajapyx aquilonaris (Silvestri, 1931)
+637	Japygidae Haliday, 1864		Catajapyx	Catajapyx confusus (Silvestri, 1929)
+638	Japygidae Haliday, 1864		Catajapyx	Catajapyx heteroclitus Pagés, 1987
+639	Japygidae Haliday, 1864		Catajapyx	Catajapyx hexachaetus Pagés, 1987
+640	Japygidae Haliday, 1864		Catajapyx	Catajapyx impar Pagés, 1987
+641	Japygidae Haliday, 1864		Catajapyx	Catajapyx singularis Pagés, 1983
+642	Japygidae Haliday, 1864		Centrjapyx	Centrjapyx mahunkorum Pagés, 1982
+643	Japygidae Haliday, 1864		Centrjapyx	Centrjapyx tristani (Silvestri, 1931)
+644	Japygidae Haliday, 1864		Chiljapyx	Chiljapyx caltagironei Smith, 1962
+645	Japygidae Haliday, 1864		Congjapyx	Congjapyx constrictus Pagés & Schowing, 1958
+646	Japygidae Haliday, 1864		Congjapyx	Congjapyx hirtus Pagés, 1958
+647	Japygidae Haliday, 1864		Congjapyx	Congjapyx insidiator Pagés & Schowing, 1958
+648	Japygidae Haliday, 1864		Congjapyx	Congjapyx insolens Pagés & Schowing, 1958
+649	Japygidae Haliday, 1864		Congjapyx	Congjapyx intermedius Pagés & Schowing, 1958
+650	Japygidae Haliday, 1864		Congjapyx	Congjapyx kabarensis Pagés & Schowing, 1958
+651	Japygidae Haliday, 1864		Congjapyx	Congjapyx longipilus Pagés & Schowing, 1958
+652	Japygidae Haliday, 1864		Congjapyx	Congjapyx schoutedeni Pagés, 1954
+653	Japygidae Haliday, 1864		Deutejapyx	Deutejapyx guizhouensis Chou, 1983
+654	Japygidae Haliday, 1864		Dipljapyx	Dipljapx beroni Pagés, 1974
+655	Japygidae Haliday, 1864		Dipljapyx	Dipljapyx fagniezi Pagés, 1952
+656	Japygidae Haliday, 1864		Dipljapyx	Dipljapyx hirpinus Silvestri, 1948
+657	Japygidae Haliday, 1864		Dipljapyx	Dipljapyx humberti (Grassi, 1886)
+658	Japygidae Haliday, 1864		Dipljapyx	Dipljapyx italicus (Silvestri, 1908)
+659	Japygidae Haliday, 1864		Dipljapyx	Dipljapyx limbarae Silvestri, 1948
+660	Japygidae Haliday, 1864		Dipljapyx	Dipljapyx nexus Silvestri, 1948
+661	Japygidae Haliday, 1864		Dipljapyx	Dipljapyx sardous Silvestri, 1948
+662	Japygidae Haliday, 1864		Dipljapyx	Dipljapyx silanus silanus Silvestri, 1948
+663	Japygidae Haliday, 1864		Dipljapyx	Dipljapyx silanus meiocerus Silvestri, 1948
+664	Japygidae Haliday, 1864		Epijapyx	Epijapyx corcyraeus (Verhoeff, 1904)
+665	Japygidae Haliday, 1864		Gallojapyx	Gallojapyx iocosus Pagés, 1993
+666	Japygidae Haliday, 1864		Gollumjapyx	Gollumjapyx smeagol Sendra & Ortuño, 2006
+667	Japygidae Haliday, 1864		Hainanjapyx	Hainanjapyx jianfengensis Chou, 1983
+668	Japygidae Haliday, 1864		Hainanjapyx	Hainanjapyx xinlongnesis Chou, 1983
+669	Japygidae Haliday, 1864		Hapljapyx	Hapljapyx angulosus (Silvestri, 1918)
+670	Japygidae Haliday, 1864		Hapljapyx	Hapljapyx anodus (Silvestri, 1901)
+671	Japygidae Haliday, 1864		Hapljapyx	Hapljapyx bertonii Silvestri, 1949
+672	Japygidae Haliday, 1864		Hapljapyx	Hapljapyx carinii Silvestri, 1949
+673	Japygidae Haliday, 1864		Hapljapyx	Hapljapyx demadridi Silvestri, 1949
+674	Japygidae Haliday, 1864		Hapljapyx	Hapljapyx distinctellus Silvestri, 1949
+675	Japygidae Haliday, 1864		Hapljapyx	Hapljapyx erythraeus erythraeus (Silvestri, 1930)
+676	Japygidae Haliday, 1864		Hapljapyx	Hapljapyx erythraeus cherenianus (Silvestri, 1930)
+677	Japygidae Haliday, 1864		Hapljapyx	Hapljapyx kenyanus (Silvestri, 1918)
+678	Japygidae Haliday, 1864		Hapljapyx	Hapljapyx lizeri Silvestri, 1949
+679	Japygidae Haliday, 1864		Hapljapyx	Hapljapyx lopesi lopesi Silvestri, 1949
+680	Japygidae Haliday, 1864		Hapljapyx	Hapljapyx lopesi robustior Silvestri, 1949
+681	Japygidae Haliday, 1864		Hapljapyx	Hapljapyx meyeri Silvestri, 1949
+682	Japygidae Haliday, 1864		Hapljapyx	Hapljapyx ogloblini Silvestri, 1949
+683	Japygidae Haliday, 1864		Hapljapyx	Hapljapyx patagonicus (Silvestri, 1902)
+684	Japygidae Haliday, 1864		Hapljapyx	Hapljapyx patrizii Silvestri, 1949
+685	Japygidae Haliday, 1864		Hapljapyx	Hapljapyx platensis (Silvestri, 1902)
+686	Japygidae Haliday, 1864		Hapljapyx	Hapljapyx subanodus Silvestri, 1949
+687	Japygidae Haliday, 1864		Hapljapyx	Hapljapyx wygodzinskyi Silvestri, 1949
+688	Japygidae Haliday, 1864		Hecajapyx	Hecajapyx bucketti Smith, 1964
+689	Japygidae Haliday, 1864		Hecajapyx	Hecajapyx vulgaris Smith, 1959
+690	Japygidae Haliday, 1864		Henicjapyx	Henicjapyx indosinensis Silvestri, 1949
+691	Japygidae Haliday, 1864		Holjapyx	Holjapyx calaverasae Smith, 1959
+692	Japygidae Haliday, 1864		Holjapyx	Holjapyx conspersus Smith, 1959
+693	Japygidae Haliday, 1864		Holjapyx	Holjapyx diversiunguis (Silvestri, 1911)
+694	Japygidae Haliday, 1864		Holjapyx	Holjapyx humidus Smith, 1959
+695	Japygidae Haliday, 1864		Holjapyx	Holjapyx hyadis Smith, 1959
+696	Japygidae Haliday, 1864		Holjapyx	Holjapyx imbutus Smith, 1959
+697	Japygidae Haliday, 1864		Holjapyx	Holjapyx insiccatus Smith, 1959
+698	Japygidae Haliday, 1864		Holjapyx	Holjapyx irroratus Smith, 1959
+699	Japygidae Haliday, 1864		Holjapyx	Holjapyx madidus Smith, 1959
+700	Japygidae Haliday, 1864		Holjapyx	Holjapyx schusteri Smith, 1959
+701	Japygidae Haliday, 1864		Holjapyx?	Holjapyx? forsteri Pagés, 1952
+702	Japygidae Haliday, 1864		Holjapyx?	Holjapyx forsteri archeyi Pagés, 1952
+703	Japygidae Haliday, 1864		Holjapyx?	Holjapyx? punamuensis Pagés, 1952
+704	Japygidae Haliday, 1864		Homojapyx	Homojapyx espanoli (Pagés, 1950)
+705	Japygidae Haliday, 1864		Hutanjapyx	Hutanjapyx simpan Pagés, 1995
+706	Japygidae Haliday, 1864		Indjapyx	Indjapyx agathis Pagés, 2002
+707	Japygidae Haliday, 1864		Indjapyx	Indjapyx annandalei annandalei Silvestri, 1930
+708	Japygidae Haliday, 1864		Indjapyx	Indjapyx annandalei bituberculatus Silvestri, 1930
+709	Japygidae Haliday, 1864		Indjapyx	Indjapyx bakeri (Silvestri, 1928)
+710	Japygidae Haliday, 1864		Indjapyx	Indjapyx besucheti Pagés, 1984
+711	Japygidae Haliday, 1864		Indjapyx	Indjapyx bogorensis Pagés, 2002
+712	Japygidae Haliday, 1864		Indjapyx	Indjapyx ceylonicus Silvestri, 1930
+713	Japygidae Haliday, 1864		Indjapyx	Indjapyx crockerianus Pagés, 1994
+714	Japygidae Haliday, 1864		Indjapyx	Indjapyx duporti (Silvestri, 1928)
+715	Japygidae Haliday, 1864		Indjapyx	Indjapyx goodenoughensis Womersley, 1945
+716	Japygidae Haliday, 1864		Indjapyx	Indjapyx gravelyi Silvestri, 1930
+717	Japygidae Haliday, 1864		Indjapyx	Indjapyx harrisoni Silvestri, 1936
+718	Japygidae Haliday, 1864		Indjapyx	Indjapyx heteronotus Silvestri, 1930
+719	Japygidae Haliday, 1864		Indjapyx	Indjapyx indicus indicus (Oudemans, 1890)
+720	Japygidae Haliday, 1864		Indjapyx	Indjapyx indicus bidicola Silvestri, 1930
+721	Japygidae Haliday, 1864		Indjapyx	Indjapyx indicus birmanus Silvestri, 1930
+722	Japygidae Haliday, 1864		Indjapyx	Indjapyx indicus borneensis Silvestri, 1930
+723	Japygidae Haliday, 1864		Indjapyx	Indjapyx indicus javanus Silvestri, 1930 
+724	Japygidae Haliday, 1864		Indjapyx	Indjapyx indicus modestus Pagés, 1978
+725	Japygidae Haliday, 1864		Indjapyx	Indjapyx indicus separatus Silvestri, 1930
+726	Japygidae Haliday, 1864		Indjapyx	Indjapyx kraepelini Silvestri, 1930
+727	Japygidae Haliday, 1864		Indjapyx	Indjapyx loebli Pagés,1984
+728	Japygidae Haliday, 1864		Indjapyx	Indjapyx mussardi Pagés,1984
+729	Japygidae Haliday, 1864		Indjapyx	Indjapyx novaecaledoniae Silvestri, 1949
+730	Japygidae Haliday, 1864		Indjapyx	Indjapyx papuasicus (Silvestri, 1902)
+731	Japygidae Haliday, 1864		Indjapyx	Indjapyx perturbator Pagés, 1978
+732	Japygidae Haliday, 1864		Indjapyx	Indjapyx petrunkevitchi Silvestri, 1936
+733	Japygidae Haliday, 1864		Indjapyx	Indjapyx pinicola Pagés, 2002
+734	Japygidae Haliday, 1864		Indjapyx	Indjapyx polettii (Silvestri, 1928)
+735	Japygidae Haliday, 1864		Indjapyx	Indjapyx pruthii Silvestri, 1930
+736	Japygidae Haliday, 1864		Indjapyx	Indjapyx samosir Pagés, 2002
+737	Japygidae Haliday, 1864		Indjapyx	Indjapyx seymouri Silvestri, 1930
+738	Japygidae Haliday, 1864		Indjapyx	Indjapyx sharpi (Silvestri, 1904)
+739	Japygidae Haliday, 1864		Indjapyx	Indjapyx silvestrii Pagés, 1984
+740	Japygidae Haliday, 1864		Indjapyx	Indjapyx simalungun Pagés, 2002
+741	Japygidae Haliday, 1864		Indjapyx	Indjapyx singapura Pagés, 2002 
+742	Japygidae Haliday, 1864		Indjapyx	Indjapyx sumatranus (Silvestri, 1916)
+743	Japygidae Haliday, 1864		Indjapyx	Indjapyx taprobanicus Silvestri, 1930
+744	Japygidae Haliday, 1864		Indjapyx	Indjapyx uvaianus Pagés, 1984
+745	Japygidae Haliday, 1864		Indjapyx	Indjapyx yoshii Pagés, 1994
+746	Japygidae Haliday, 1864		Isojapyx	Isojapyx eidemani Silvestri, 1949
+747	Japygidae Haliday, 1864		Isojapyx	Isojapyx excitus excitus Silvestri, 1930
+748	Japygidae Haliday, 1864		Isojapyx	Isojapyx minorellus Silvestri, 1949
+749	Japygidae Haliday, 1864		Isojapyx	Isojapyx scopiferus Silvestri, 1948
+750	Japygidae Haliday, 1864		Japygellus	Japygellus serrifer Silvestri, 1930
+751	Japygidae Haliday, 1864		Japyginus	Japyginus breviforceps Silvestri, 1930
+752	Japygidae Haliday, 1864		Japygianus	Japygianus wheeleri Silvestri, 1947
+753	Japygidae Haliday, 1864		Japyx	Japyx akiyamae Silvestri, 1928
+754	Japygidae Haliday, 1864		Japyx	Japyx arnoldi Ionescu, 1959
+755	Japygidae Haliday, 1864		Japyx	Japyx barnardi barbari Silvestri, 1931
+756	Japygidae Haliday, 1864		Japyx	Japyx barnardi relatus Silvestri, 1931
+757	Japygidae Haliday, 1864		Japyx	Japyx beccarii Silvestri,1930
+758	Japygidae Haliday, 1864		Japyx	Japyx beneserratus Kuwayama, 1928
+759	Japygidae Haliday, 1864		Japyx	Japyx bolivari Silvestri, 1929
+760	Japygidae Haliday, 1864		Japyx	Japyx brachycerus Silvestri, 1930
+761	Japygidae Haliday, 1864		Japyx	Japyx contiguus Silvestri, 1930
+762	Japygidae Haliday, 1864		Japyx	Japyx costantinii Silvestri, 1928
+763	Japygidae Haliday, 1864		Japyx	Japyx devius devius Silvestri, 1930
+764	Japygidae Haliday, 1864		Japyx	Japyx devius auctus Silvestri, 1930
+765	Japygidae Haliday, 1864		Japyx	Japyx doderoi Silvestri, 1934
+766	Japygidae Haliday, 1864		Japyx	Japyx doriai Silvestri, 1930 
+767	Japygidae Haliday, 1864		Japyx	Japyx evansi Silvestri, 1930
+768	Japygidae Haliday, 1864		Japyx	Japyx feae Silvestri, 1930
+769	Japygidae Haliday, 1864		Japyx	Japyx froggatti froggatti Silvestri, 1930
+770	Japygidae Haliday, 1864		Japyx	Japyx froggatti augens Silvestri, 1930
+771	Japygidae Haliday, 1864		Japyx	Japyx fulleri Silvestri, 1931
+772	Japygidae Haliday, 1864		Japyx	Japyx gestri Silvestri, 1930
+773	Japygidae Haliday, 1864		Japyx	Japyx ghilarovi Ionescu, 1959
+774	Japygidae Haliday, 1864		Japyx	Japyx giffardi Silvestri, 1930
+775	Japygidae Haliday, 1864		Japyx	Japyx gilli Silvestri, 1931
+776	Japygidae Haliday, 1864		Japyx	Japyx girodoi Silvestri, 1928
+777	Japygidae Haliday, 1864		Japyx	Japyx glauerti Womersley, 1934
+778	Japygidae Haliday, 1864		Japyx	Japyx goliath Parona, 1888
+779	Japygidae Haliday, 1864		Japyx	Japyx hastatus Fox, 1941
+780	Japygidae Haliday, 1864		Japyx	Japyx heymonsi Silvestri, 1931
+781	Japygidae Haliday, 1864		Japyx	Japyx hutchinsoni Silvestri, 1931
+782	Japygidae Haliday, 1864		Japyx	Japyx insuetus Pagés, 1983
+783	Japygidae Haliday, 1864		Japyx	Japyx intercalatus Silvestri, 1933
+784	Japygidae Haliday, 1864		Japyx	Japyx ishii Silvestri, 1928
+785	Japygidae Haliday, 1864		Japyx	Japyx japonicus japonicus Enderlein, 1907
+786	Japygidae Haliday, 1864		Japyx	Japyx japonicus primarius Silvestri, 1928
+787	Japygidae Haliday, 1864		Japyx	Japyx jonicus Silvestri, 1908
+788	Japygidae Haliday, 1864		Japyx	Japyx kosswigi Paclt, 1965
+789	Japygidae Haliday, 1864		Japyx	Japyx kuwanae Silvestri, 1928
+790	Japygidae Haliday, 1864		Japyx	Japyx latens Silvestri, 1933
+791	Japygidae Haliday, 1864		Japyx	Japyx leae Silvestri, 1930
+792	Japygidae Haliday, 1864		Japyx	Japyx liberiensis Cook, 1899
+793	Japygidae Haliday, 1864		Japyx	Japyx mallyi Silvestri, 1931
+794	Japygidae Haliday, 1864		Japyx	Japyx meridionalis Silvestri, 1948
+795	Japygidae Haliday, 1864		Japyx	Japyx michaelseni Silvestri, 1930 
+796	Japygidae Haliday, 1864		Japyx	Japyx minimus Swenk, 1903
+797	Japygidae Haliday, 1864		Japyx	Japyx minutus Silvestri, 1948
+798	Japygidae Haliday, 1864		Japyx	Japyx molineti Silvestri, 1929
+799	Japygidae Haliday, 1864		Japyx	Japyx nichollsi Womersley, 1934
+800	Japygidae Haliday, 1864		Japyx	Japyx nigerianus Silvestri, 1929
+801	Japygidae Haliday, 1864		Japyx	Japyx obliquus Cook, 1899
+802	Japygidae Haliday, 1864		Japyx	Japyx onkaparinga Womersley, 1935
+803	Japygidae Haliday, 1864		Japyx	Japyx pauliani Silvestri, 1938
+804	Japygidae Haliday, 1864		Japyx	Japyx peringueyi Silvestri, 1931
+805	Japygidae Haliday, 1864		Japyx	Japyx persequens Silvestri, 1918
+806	Japygidae Haliday, 1864		Japyx	Japyx purcelli purcelli Peringuey, 1901
+807	Japygidae Haliday, 1864		Japyx	Japyx purcelli gravior Silvestri, 1931
+808	Japygidae Haliday, 1864		Japyx	Japyx remyi Pagés, 1950
+809	Japygidae Haliday, 1864		Japyx	Japyx senegalensis Silvestri, 1930
+810	Japygidae Haliday, 1864		Japyx	Japyx solifugus Haliday, 1864
+811	Japygidae Haliday, 1864		Japyx	Japyx sowerbyi Silvestri, 1928
+812	Japygidae Haliday, 1864		Japyx	Japyx subductus Silvestri, 1930
+813	Japygidae Haliday, 1864		Japyx	Japyx subuncifer Silvestri, 1930
+814	Japygidae Haliday, 1864		Japyx	Japyx temperatus Silvestri, 1930
+815	Japygidae Haliday, 1864		Japyx	Japyx toccii Silvestri, 1928
+816	Japygidae Haliday, 1864		Japyx	Japyx tragardhi Silvestri, 1931
+817	Japygidae Haliday, 1864		Japyx	Japyx tunisinus Silvestri, 1902
+818	Japygidae Haliday, 1864		Japyx	Japyx turcicus turcicus Paclt, 1965
+819	Japygidae Haliday, 1864		Japyx	Japyx turcicus ascanius Paclt, 1965
+820	Japygidae Haliday, 1864		Japyx	Japyx validior Silvestri, 1931
+821	Japygidae Haliday, 1864		Japyx	Japyx vivaldii Silvestri, 1929
+822	Japygidae Haliday, 1864		Japyx	Japyx westraliensis Womersley, 1934
+823	Japygidae Haliday, 1864		Japyx	Japyx womersleyi Pagés, 1952
+824	Japygidae Haliday, 1864		Kinabalujapyx	Kinabalujapyx disturbator Pagés, 1994
+825	Japygidae Haliday, 1864		Kohjapyx	Kohjapyx uchleri Pagés, 1961
+826	Japygidae Haliday, 1864		Kohjapyx	Kohjapyx lindbergi Pagés, 1962
+827	Japygidae Haliday, 1864		Kohjapyx	Kohjapyx serfatyi Pagés, 1961
+828	Japygidae Haliday, 1864		Megajapyx	Megajapyx biangulatus (Silvestri, 1933)
+829	Japygidae Haliday, 1864		Megajapyx	Megajapyx gigas (Brauer, 1869)
+830	Japygidae Haliday, 1864		Megajapyx	Megajapyx graecus (Verhoeff, 1904)
+831	Japygidae Haliday, 1864		Megajapyx	Megajapyx izmir Paclt, 1957 
+832	Japygidae Haliday, 1864		Megajapyx	Megajapyx lagoi (Silvestri, 1931)
+833	Japygidae Haliday, 1864		Megajapyx	Megajapyx rhodianus Silvestri, 1933
+834	Japygidae Haliday, 1864		Megajapyx	Megajapyx roeweri (Silvestri, 1931)
+835	Japygidae Haliday, 1864		Megajapyx	Megajapyx solerii Silvestri, 1931
+836	Japygidae Haliday, 1864		Megajapyx	Megajapyx stankovici Pagés, 1953
+837	Japygidae Haliday, 1864		Megajapyx	Megajapyx syriacus syriacus (Silvestri, 1911)
+838	Japygidae Haliday, 1864		Megajapyx	Megajapyx syriacus inferior (Silvestri, 1930)
+839	Japygidae Haliday, 1864		Megajapyx	Megajapyx werneri (Stach, 1929)
+840	Japygidae Haliday, 1864		Merojapyx	Merojapyx bidentatus (Schäffer, 1897)
+841	Japygidae Haliday, 1864		Merojapyx	Merojapyx porteri Silvestri, 1949
+842	Japygidae Haliday, 1864		Merojapyx	Merojapyx riverosi Silvestri, 1949
+843	Japygidae Haliday, 1864		Merojapyx	Merojapyx spegazzinii Silvestri, 1949
+844	Japygidae Haliday, 1864		Mesjapyx	Mesjapyx afrinus Silvestri, 1949
+845	Japygidae Haliday, 1864		Mesjapyx	Mesjapyx immsi (Silvestri, 1930)
+846	Japygidae Haliday, 1864		Mesjapyx	Mesjapyx silvestris (Carpenter, 1916)
+847	Japygidae Haliday, 1864		Metajapyx	Metajapyx aemulans (Silvestri, 1933)
+848	Japygidae Haliday, 1864		Metajapyx	Metajapyx albanicus (Stach, 1922)
+849	Japygidae Haliday, 1864		Metajapyx	Metajapyx athenarum (Cook, 1899)
+850	Japygidae Haliday, 1864		Metajapyx	Metajapyx besucheti besucheti Pagés, 1978
+851	Japygidae Haliday, 1864		Metajapyx	Metajapyx besucheti venetus Pagés, 1993
+852	Japygidae Haliday, 1864		Metajapyx	Metajapyx bonadonai Pagés, 1954
+853	Japygidae Haliday, 1864		Metajapyx	Metajapyx braueri (Verhoeff, 1904)
+854	Japygidae Haliday, 1864		Metajapyx	Metajapyx codinai (Silvestri, 1929)
+855	Japygidae Haliday, 1864		Metajapyx	Metajapyx confectus Silvestri, 1947
+856	Japygidae Haliday, 1864		Metajapyx	Metajapyx dolinensis (Verhoeff, 1904)
+857	Japygidae Haliday, 1864		Metajapyx	Metajapyx firmus (Silvestri, 1931)
+858	Japygidae Haliday, 1864		Metajapyx	Metajapyx folsomi Silvestri, 1948
+859	Japygidae Haliday, 1864		Metajapyx	Metajapyx gallicus (Silvestri, 1934)
+860	Japygidae Haliday, 1864		Metajapyx	Metajapyx garganicus Silvestri, 1948
+861	Japygidae Haliday, 1864		Metajapyx	Metajapyx gojkovici Pagés, 1953
+862	Japygidae Haliday, 1864		Metajapyx	Metajapyx heterocercus Muegge & Bernard, 1990
+863	Japygidae Haliday, 1864		Metajapyx	Metajapyx illinoiensis Smith & Bolton, 1964
+864	Japygidae Haliday, 1864		Metajapyx	Metajapyx inductus (Silvestri, 1933)
+865	Japygidae Haliday, 1864		Metajapyx	Metajapyx insularis (Silvestri, 1908)
+866	Japygidae Haliday, 1864		Metajapyx	Metajapyx leruthi Silvestri, 1948
+867	Japygidae Haliday, 1864		Metajapyx	Metajapyx magnifimbriatus Muegge & Bernard, 1990
+868	Japygidae Haliday, 1864		Metajapyx	Metajapyx mauritanicus (Silvestri, 1908)
+869	Japygidae Haliday, 1864		Metajapyx	Metajapyx moroderi moroderi (Silvestri, 1929)
+870	Japygidae Haliday, 1864		Metajapyx	Metajapyx moroderi patrizianus Pagés, 1953
+871	Japygidae Haliday, 1864		Metajapyx	Metajapyx parvidens Silvestri, 1948
+872	Japygidae Haliday, 1864		Metajapyx	Metajapyx peanoi Pagés,1980
+873	Japygidae Haliday, 1864		Metajapyx	Metajapyx pervengens (Silvestri,1933)
+874	Japygidae Haliday, 1864		Metajapyx	Metajapyx phitosi Pagés, 1983
+875	Japygidae Haliday, 1864		Metajapyx	Metajapyx propinquus (Silvestri, 1948)
+876	Japygidae Haliday, 1864		Metajapyx	Metajapyx remingtoni Smith & Bolton, 1964
+877	Japygidae Haliday, 1864		Metajapyx	Metajapyx repentinus Pagés, 1953
+878	Japygidae Haliday, 1864		Metajapyx	Metajapyx schwarzi Ewing & Fox, 1942
+879	Japygidae Haliday, 1864		Metajapyx	Metajapyx serratus (Stach, 1929)
+880	Japygidae Haliday, 1864		Metajapyx	Metajapyx siculus (Verhoeff, 1923)
+881	Japygidae Haliday, 1864		Metajapyx	Metajapyx steevesi Smith & Bolton, 1964
+882	Japygidae Haliday, 1864		Metajapyx	Metajapyx strouhalae Paclt, 1957
+883	Japygidae Haliday, 1864		Metajapyx	Metajapyx subterraneus (Packard, 1874)
+884	Japygidae Haliday, 1864		Metajapyx	Metajapyx viti Pagés, 1993
+885	Japygidae Haliday, 1864		Mixojapyx	Mixojapyx barberi Ewing & Fox, 1942
+886	Japygidae Haliday, 1864		Mixojapyx	Mixojapyx conspicuus Silvestri, 1933
+887	Japygidae Haliday, 1864		Mixojapyx	Mixojapyx cooki Ewing & Fox, 1942
+888	Japygidae Haliday, 1864		Mixojapyx	Mixojapyx dampfi Silvestri, 1948
+889	Japygidae Haliday, 1864		Mixojapyx	Mixojapyx dechambrieri Pagés, 1977
+890	Japygidae Haliday, 1864		Mixojapyx	Mixojapyx impar Silvestri, 1948
+891	Japygidae Haliday, 1864		Mixojapyx	Mixojapyx notabilis Silvestri, 1948
+892	Japygidae Haliday, 1864		Mixojapyx	Mixojapyx reddelli Muegge, 1992
+893	Japygidae Haliday, 1864		Mixojapyx	Mixojapyx riggii riggii Silvestri, 1949
+894	Japygidae Haliday, 1864		Mixojapyx	Mixojapyx riggii paraguayensis Silvestri, 1949
+895	Japygidae Haliday, 1864		Mixojapyx	Mixojapyx saussurei (Humbert, 1868)
+896	Japygidae Haliday, 1864		Mixojapyx	Mixojapyx tridenticulatus tridenticulatus (Fox, 1941)
+897	Japygidae Haliday, 1864		Mixojapyx	Mixojapyx tridenticulatus superior Silvestri, 1948
+898	Japygidae Haliday, 1864		Monojapyx	Monojapyx simplex simplex (Verhoeff, 1923)
+899	Japygidae Haliday, 1864		Monojapyx	Monojapyx simplex profusus (Silvestri, 1933)
+900	Japygidae Haliday, 1864		Mueggejapyx	Mueggejapyx brehieri Sendra & Komerički, 2021
+901	Japygidae Haliday, 1864		Nelsjapyx	Nelsjapyx hichinsi Smith, 1962
+902	Japygidae Haliday, 1864		Nelsjapyx	Nelsjapyx soldadi Smith, 1962
+903	Japygidae Haliday, 1864		Neojapyx	Neojapyx centralis (Silvestri, 1902)
+904	Japygidae Haliday, 1864		Neojapyx	Neojapyx guianae Silvestri, 1933
+905	Japygidae Haliday, 1864		Neojapyx	Neojapyx insulanus Silvestri, 1949
+906	Japygidae Haliday, 1864		Neojapyx	Neojapyx ortonedai Silvestri, 1949
+907	Japygidae Haliday, 1864		Neojapyx	Neojapyx tropicalis Ewing & Fox, 1942
+908	Japygidae Haliday, 1864		Notojapyx	Notojapyx mjobergi Silvestri, 1929
+909	Japygidae Haliday, 1864		Notojapyx	Notojapyx tillyardi tillyardi (Silvestri, 1930)
+910	Japygidae Haliday, 1864		Notojapyx	Notojapyx tillyardi pagesi (Womersley, 1939)
+911	Japygidae Haliday, 1864		Occasjapyx	Occasjapyx americanus (MacGillivray, 1893)
+912	Japygidae Haliday, 1864		Occasjapyx	Occasjapyx californicus Silvestri, 1948
+913	Japygidae Haliday, 1864		Occasjapyx	Occasjapyx carltoni Allen, 1988
+914	Japygidae Haliday, 1864		Occasjapyx	Occasjapyx kofoidi (Silvestri, 1928)
+915	Japygidae Haliday, 1864		Occasjapyx	Occasjapyx sierrensis Smith, 1959
+916	Japygidae Haliday, 1864		Occasjapyx	Occasjapyx wulingensis Xie & Yang, 1990
+917	Japygidae Haliday, 1864		Occasjapyx	Occasjapyx yangi Chou & Chen, 1983
+918	Japygidae Haliday, 1864		Occasjapyx	Oncojapyx basilewskyi basilewskyi Pagés, 1952
+919	Japygidae Haliday, 1864		Occasjapyx	Oncojapyx basilewskyi pilosior Pagés, 1952
+920	Japygidae Haliday, 1864		Occasjapyx	Oncojapyx machadoi Silvestri, 1948
+921	Japygidae Haliday, 1864		Occasjapyx	Oncojapyx perarmatus Pagés, 1952
+922	Japygidae Haliday, 1864		Opisthjapyx	Opisthjapyx seurati Silvestri, 1929
+923	Japygidae Haliday, 1864		Parindjapyx	Parindjapyx aelleni Pagés, 1977
+924	Japygidae Haliday, 1864		Parindjapyx	Parindjapyx apulus (Silvestri, 1908)
+925	Japygidae Haliday, 1864		Parindjapyx	Parindjapyx chiorandoi Silvestri, 1933
+926	Japygidae Haliday, 1864		Parindjapyx	Parindjapyx crivellarii Silvestri, 1933
+927	Japygidae Haliday, 1864		Parindjapyx	Parindjapyx dessyi Silvestri, 1933
+928	Japygidae Haliday, 1864		Parindjapyx	Parindjapyx furcatus Pagés, 1984
+929	Japygidae Haliday, 1864		Parindjapyx	Parindjapyx guttulatus Pagés, 1984
+930	Japygidae Haliday, 1864		Parindjapyx	Parindjapyx insignis Pagés, 1984
+931	Japygidae Haliday, 1864		Parindjapyx	Parindjapyx tzanoudakisi Pagés, 1981
+932	Japygidae Haliday, 1864		Parindjapyx	Parindjapyx vulturnus vulturus Pagés, 1984
+933	Japygidae Haliday, 1864		Parindjapyx	Parindjapyx wollastoni (Westwood, 1874)
+934	Japygidae Haliday, 1864		Parindjapyx	Parindjapyx xerophilus Pagés, 1984
+935	Japygidae Haliday, 1864		Pauperojapyx	Pauperojapyx (Paucijapyx) kajan Pagés, 1995
+936	Japygidae Haliday, 1864		Pauperojapyx	Pauperojapyx (Pauperojapyx) iban Pagés, 1995
+937	Japygidae Haliday, 1864		Penjapyx	Penjapyx altus Smith,1962
+938	Japygidae Haliday, 1864		Penjapyx	Penjapyx castrii González & Smith, 1964
+939	Japygidae Haliday, 1864		Polyjapyx	Polyjapyx heterodontus Silvestri, 1949
+940	Japygidae Haliday, 1864		Proncojapyx	Proncojapyx scotti scotti Silvestri, 1949
+941	Japygidae Haliday, 1864		Protjapyx	Proncojapyx scotti nemoralis Silvestri, 1949
+942	Japygidae Haliday, 1864		Proncojapyx	Protjapyx maior maior (Grassi, 1886)
+943	Japygidae Haliday, 1864		Protjapyx	Protjapyx maior sardous Silvestri, 1948
+944	Japygidae Haliday, 1864		Psalidojapyx	Psalidojapyx edentulus Pagés, 2000
+945	Japygidae Haliday, 1864		Psalidojapyx	Psalidojapyx murudensis (Silvestri, 1930)
+946	Japygidae Haliday, 1864		Rectojapyx	Rectojapyx herzegowinensis (Verhoeff, 1923)
+947	Japygidae Haliday, 1864		Rossjapyx	Rossjapyx australis Smith, 1962
+948	Japygidae Haliday, 1864		Scottojapyx	Scottojapyx simienensis Pagés, 1957
+949	Japygidae Haliday, 1864		Shaanxijapyx	Shaanxijapyx xianensis Chou, 1983
+950	Japygidae Haliday, 1864		Silvestriapyx	Silvestriapyx greeni (Silvestri, 1930)
+951	Japygidae Haliday, 1864		Sinjapyx	Sinjapyx cupellii (Silvestri, 1928)
+952	Japygidae Haliday, 1864		Sinjapyx	Sinjapyx davidoffi Silvestri, 1949
+953	Japygidae Haliday, 1864		Sinjapyx	Sinjapyx denisi Silvestri, 1949
+954	Japygidae Haliday, 1864		Sinjapyx	Sinjapyx modicus Silvestri, 1949
+955	Japygidae Haliday, 1864		Teljapyx	Teljapyx afer Silvestri, 1949
+956	Japygidae Haliday, 1864		Teljapyx	Teljapyx costalus Gonzalez & Smith, 1964
+957	Japygidae Haliday, 1864		Teljapyx	Teljapyx hirsutus Gonzalez & Smith, 1964
+958	Japygidae Haliday, 1864		Teljapyx	Teljapyx jeanneli (Silvestri, 1934)
+959	Japygidae Haliday, 1864		Teljapyx	Teljapyx larva (Philippi, 1863)
+960	Japygidae Haliday, 1864		Teljapyx	Teljapyx megalocerus (Silvestri, 1902)
+961	Japygidae Haliday, 1864		Teljapyx	Teljapyx parcus Silvestri, 1949
+962	Japygidae Haliday, 1864		Teljapyx	Teljapyx profundus Smith, 1962
+963	Japygidae Haliday, 1864		Teljapyx	Teljapyx riestrae Silvestri, 1949
+964	Japygidae Haliday, 1864		Troglojapyx	Troglojapyx hauseri Pagés, 1980
+965	Japygidae Haliday, 1864		Ultrajapyx	Ultrajapyx pieltaini (Silvestri, 1929)
+966	Japygidae Haliday, 1864		Unjapyx	Unjapyx mussardi Pagés, 1993
+967	Japygidae Haliday, 1864		Unjapyx	Unjapyx simplicior (Silvestri, 1929)
+968	Japygidae Haliday, 1864		Unjapyx	Unjapyx turbator Pagés, 1993
+969	Japygidae Haliday, 1864		Urojapyx	Urojapyx whytei Pagés, 1955
+970	Japygidae Haliday, 1864		Valpjapyx	Valpjapyx botani Smith, 1962
+971	Japygidae Haliday, 1864		Valpjapyx	Valpjapyx talcae Smith, 1962
+972	Japygidae Haliday, 1864		Xenjapyx	Xenjapyx bouvieri (Silvestri, 1907)
+973	Japygidae Haliday, 1864		Xenjapyx	Xenjapyx tolaianus Pagés, 1957
+974	Octostigmatidae Rusek, 1982		Octostigma	Octostigma herbivora Rusek, 1982
+975	Octostigmatidae Rusek, 1982		Octostigma	Octostigma sinensis Xie & Yang, 1990
+976	Octostigmatidae Rusek, 1982		Octostigma	Octostigma spiniferum Pagés, 2001
+977	Parajapygidae Womersley, 1939		Ectasjapyx	Ectasjapyx bolivari Silvestri, 1929
+978	Parajapygidae Womersley, 1939		Ectasjapyx	Ectasjapyx machadoi Pagés, 1952
+979	Parajapygidae Womersley, 1939		Ectasjapyx	Ectasjapyx microdontus Pagés, 1952
+980	Parajapygidae Womersley, 1939		Ectasjapyx	Ectasjapyx simulator Pagés, 1952
+981	Parajapygidae Womersley, 1939		Ectasjapyx	Ectasjapyx vilhenai Pagés, 1952
+982	Parajapygidae Womersley, 1939		Lacandonajapyx	Lacandonajapyx cristinae García-Gómez, 2009
+983	Parajapygidae Womersley, 1939		Miojapyx	Miojapyx americanus Ewing, 1941
+984	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx adisi Pagés, 2000
+985	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx afer Silvestri, 1913
+986	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx alienus Pagés, 1982
+987	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx ambiguus Pagés, 1952
+988	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx bahianus Silvestri, 1949
+989	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx birketsmithi Pagés, 1958
+990	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx bolivarianus bolivarianus Silvestri, 1929
+991	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx bolivarianus pauperior Silvestri, 1929
+992	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx bonetianus Silvestri, 1948
+993	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx botosaneanui Pagés,1977
+994	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx brasilianus brasilianus Silvestri, 1949
+995	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx brasilianus meridionales Silvestri, 1949
+996	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx brasilianus orientalis Silvestri, 1949
+997	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx calvinianus Silvestri,1929
+998	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx chichinii Pagés,1953
+999	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx coiffaiti Pagés, 1955
+1000	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx condei Pagés, 1953
+1001	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx dahli Pagés, 1958
+1002	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx dentatus dentatus Delamare-Deboutteville, 1947
+1003	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx dentatus angolanus Pagés, 1952
+1004	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx dissimilis Pagés, 1953
+1005	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx dorianus Silvestri, 1929
+1006	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx dundoanus Pagés, 1952
+1007	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx emeryanus emeryanus Silvestri, 1928
+1008	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx emeryanus centralis Silvestri, 1928
+1009	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx feaianus Silvestri, 1929
+1010	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx genavensium Pagés, 1977
+1011	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx gerlachi Pagés, 1967
+1012	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx gestrianus gestrianus Silvestri, 1929
+1013	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx gestrianus modestior Silvestri, 1929
+1014	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx gestrianus paramodestior Delamare-Deboutille, 1947
+1015	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx grandianus Silvestri, 1929
+1016	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx grassianus grassianus Silvestri, 1911
+1017	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx grassianus maiusculellus Silvestri, 1948
+1018	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx grassianus robustior Silvestri, 1948
+1019	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx hauseri Pagés, 1998
+1020	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx indicus Silvestri, 1913
+1021	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx intermedius Silvestri, 1948
+1022	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx isabellae isabellae (Grassi, 1886)
+1023	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx isabellae atzecus Silvestri, 1948
+1024	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx jinghongensis Xie & Yang, 1989
+1025	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx kocheri Pagés, 1953
+1026	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx kwashanensi Chou, 1966
+1027	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx luachimoanus Pagés, 1952
+1028	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx mexicanus Silvestri, 1948
+1029	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx normandi Pagés, 1952
+1030	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx paranensis Silvestri, 1949
+1031	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx pauliani Pagés, 1959
+1032	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx priesneri Pagés, 1953
+1033	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx queenslandicus Womersley, 1945
+1034	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx remyi Pagés, 1953
+1035	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx reniformis Pagés, 1998
+1036	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx russianus Silvestri, 1949
+1037	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx sabahnus Pagés, 1987
+1038	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx samoanus Silvestri, 1930
+1039	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx scalpellus Fox, 1941
+1040	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx sensillatus Pagés, 1954
+1041	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx sepilok Pagés, 1987
+1042	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx strinatii Pagés, 1975
+1043	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx swani Womersley, 1934
+1044	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx temburong Pagés, 1998
+1045	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx transvaalicus Silvestri, 1931
+1046	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx tristanianus Silvestri, 1931
+1047	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx vinciguerranus vinciguerranus Silvestri, 1929
+1048	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx vinciguerranus minoratus Silvestri, 1929
+1049	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx vinciguerranus eburneus Delamare-Devoutille, 1947
+1050	Parajapygidae Womersley, 1939		Parajapyx	Parajapyx yangi Chou, 1966
+1051	Procampodeidae Silvestri, 1948		Procampodea	Procampodea brevicauda Silvestri, 1948
+1052	Procampodeidae Silvestri, 1948		Procampodea	Procampodea macswaini Condé & Pagés, 1956
+1053	Projapygidae Cook, 1899		Biclavula	Biclavula wygodzinskyi San Martín, 1963
+1054	Projapygidae Cook, 1899		Pentacladiscus	Pentacladiscus manegarzoi San Martín, 1964
+1055	Projapygidae Cook, 1899		Pentacladiscus	Pentacladiscus schubarti San Martín, 1963
+1056	Projapygidae Cook, 1899		Projapyx	Projapyx brasiliensis Silvestri, 1938
+1057	Projapygidae Cook, 1899		Projapyx	Projapyx congruens Silvestri, 1938
+1058	Projapygidae Cook, 1899		Projapyx	Projapyx eburneus (Paulian & Delamare-Deboutteville, 1948)
+1059	Projapygidae Cook, 1899		Projapyx	Projapyx imperfectus Pagés, 1958
+1060	Projapygidae Cook, 1899		Projapyx	Projapyx incomprehensus Silvestri, 1909
+1061	Projapygidae Cook, 1899		Projapyx	Projapyx jeanneli Delamare-Deboutteville, 1947
+1062	Projapygidae Cook, 1899		Projapyx	Projapyx stylifer Cook, 1899
+1063	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus antenofloridus San Martin, 1964
+1064	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus fuquesi San Martin, 1967
+1065	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus palermi San Martín, 1967
+1066	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus quadrispatulus San Martin, 1969
+1067	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus almedai Wygodzinsky, 1946
+1068	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus arlei Wygodzinsky, 1941
+1069	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus blanguernoni (Pagés, 1951)
+1070	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus carbonelli Mañe-Garzón & San Martín, 1960
+1071	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus cuelloi San Martin, 1961
+1072	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus discretus (Silvestri, 1938)
+1073	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus grassi grassi (Silvestri, 1909)
+1074	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus grassi aethiopicus (Silvestri, 1913)
+1075	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus indicus Silvestri, 1937
+1076	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus klappenbachi San Martin, 1962
+1077	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus legrandi Mañe-Garzón & San Martín, 1960
+1078	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus lutzi Silvestri, 1937
+1079	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus marcuzzii Pagés, 1956
+1080	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus marianoius Garcia-Gómez & Castaño, 2007
+1081	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus monnei San Martín, 1966
+1082	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus monoglandularis San Martín & Sandulski, 1963
+1083	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus occidentalis Silvestri, 1938
+1084	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus orientalis Silvestri, 1937
+1085	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus paratus Silvetri, 1938
+1086	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus perceptus Silvestri, 1938
+1087	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus peregrinus Silvestri, 1938
+1088	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus remyi Pagés, 1953
+1089	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus rosasandulskiae San Martin, 1962
+1090	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus simplex Silvestri, 1938
+1091	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus spinidentatus San Martín, 1966
+1092	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus stangei Smith, 1960
+1093	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus swani Womersley, 1945 
+1094	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus travassosi Silvestri, 1938
+1095	Projapygidae Cook, 1899		Symphylunirus	Symphylurinus tristani Silvestri, 1938
