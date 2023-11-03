@@ -47,7 +47,7 @@ completeness: 100
 
 # Any Open Definition license ID: https://licenses.opendefinition.org/licenses/groups/all.json
 # Must be CC0-1.0 or CC-BY-4.0 to be used by COL !!!
-license: CC-BY-4.0
+license: CC-BY-NC-ND-4.0
 
 # Link to a website for the dataset
 url: https://doi.org/10.1111/icad.12480
